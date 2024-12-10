@@ -24,4 +24,29 @@ export interface ApiResponse {
     success: boolean;
     message?: string;
     data?: any;
+}
+
+export interface NavigationLog {
+    timestamp: string;
+    thoughts: string;
+    steps: string[];
+    stepDetails?: StepInfo[];
+    success?: boolean;
+    finalPosition?: Position;
+}
+
+export interface RobotResponse {
+    steps: string[];
+    thoughts?: string;
+}
+
+export interface Position {
+    x: number;
+    y: number;
+}
+
+export interface StepInfo {
+    step: string;
+    position: Position;
+    description: string;
 } 

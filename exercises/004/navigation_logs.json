@@ -1,0 +1,456 @@
+[
+  {
+    "timestamp": "2024-03-14T12:00:00.000Z",
+    "thoughts": "Planning shortest path to target: 2 right, 3 up, 1 right",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "success": true
+  },
+  {
+    "timestamp": "2024-03-14T12:01:00.000Z",
+    "thoughts": "Previous path succeeded, will try to optimize by changing order: 3 up, 3 right",
+    "steps": [
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT",
+      "RIGHT",
+      "RIGHT"
+    ],
+    "success": false
+  },
+  {
+    "timestamp": "2024-12-10T00:10:09.910Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "success": false
+  },
+  {
+    "timestamp": "2024-12-10T00:10:24.559Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "success": false
+  },
+  {
+    "timestamp": "2024-12-10T00:15:10.081Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "timestamp": "2024-12-10T00:15:46.891Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "timestamp": "2024-12-10T00:16:54.092Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "timestamp": "2024-12-10T00:18:01.806Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "timestamp": "2024-12-10T00:20:59.302Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  },
+  {
+    "timestamp": "2024-12-10T00:27:16.689Z",
+    "thoughts": "No thoughts provided",
+    "steps": [
+      "RIGHT",
+      "RIGHT",
+      "UP",
+      "UP",
+      "UP",
+      "RIGHT"
+    ],
+    "stepDetails": [
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "description": "RIGHT -> (1,0)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "description": "RIGHT -> (2,0)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "description": "UP -> (2,1)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "description": "UP -> (2,2)"
+      },
+      {
+        "step": "UP",
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "description": "UP -> (2,3)"
+      },
+      {
+        "step": "RIGHT",
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "description": "RIGHT -> (3,3)"
+      }
+    ],
+    "success": false,
+    "finalPosition": {
+      "x": 3,
+      "y": 3
+    }
+  }
+]
