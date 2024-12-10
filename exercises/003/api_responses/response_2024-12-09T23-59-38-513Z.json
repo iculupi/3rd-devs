@@ -1,0 +1,9 @@
+{
+  "timestamp": "2024-12-09T23-59-38-513Z",
+  "response": {
+    "code": 0,
+    "message": "{{FLG:JSONFIX}}"
+  },
+  "requestSize": 76018,
+  "testsCount": 2137
+}

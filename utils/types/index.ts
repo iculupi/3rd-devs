@@ -1,13 +1,23 @@
-export interface Test {
-    id?: string;
-    q?: string;
-    a?: string;
-    calculation?: string;
-    expected?: number;
+export interface TestItem {
+    question: string;
+    answer?: number | string;
+    test?: {
+        q: string;
+        a: string;
+    };
+}
+
+export interface TaskSubmission {
+    task: string;
+    apikey: string;
+    answer: JsonData;
 }
 
 export interface JsonData {
-    tests: Test[];
+    apikey: string;
+    description: string;
+    copyright: string;
+    'test-data': TestItem[];
 }
 
 export interface ApiResponse {

@@ -17,8 +17,8 @@ export const defaultConfig = {
 // Helper for chat completions
 export async function getChatCompletion(
     prompt: string, 
-    systemPrompt: string = "You are a helpful assistant that provides concise, accurate answers."
-) {
+    systemPrompt: string
+): Promise<string | null> {
     try {
         const completion = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
@@ -35,9 +35,9 @@ export async function getChatCompletion(
             ...defaultConfig
         });
 
-        return completion.choices[0].message.content?.trim();
+        return completion.choices[0].message.content || null;
     } catch (error) {
         console.error('OpenAI API Error:', error);
-        throw error;
+        return null;
     }
 } 

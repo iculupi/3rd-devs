@@ -1,4 +1,5 @@
 import axios from 'axios';
+import type { JsonData } from '../types';
 
 // Create axios instance with common configuration
 export const api = axios.create({
@@ -21,9 +22,42 @@ api.interceptors.response.use(
 export async function fetchData<T>(url: string): Promise<T> {
     try {
         const response = await api.get<T>(url);
-        return response.data;
+        const data = response.data;
+
+        // Zabezpiecz oryginalne dane
+        if (typeof data === 'object' && data !== null) {
+            // Zamroźmy kluczowe pola
+            Object.defineProperty(data, 'apikey', {
+                value: data.apikey,
+                writable: false,
+                configurable: false
+            });
+            Object.defineProperty(data, 'description', {
+                value: data.description,
+                writable: false,
+                configurable: false
+            });
+            Object.defineProperty(data, 'copyright', {
+                value: data.copyright,
+                writable: false,
+                configurable: false
+            });
+        }
+
+        return data;
     } catch (error) {
-        console.error(`Failed to fetch data from ${url}:`, error);
+        if (axios.isAxiosError(error)) {
+            console.error('API Error:', {
+                status: error.response?.status,
+                data: error.response?.data,
+                url: url
+            });
+        }
         throw error;
     }
+}
+
+// Type guard for JsonData
+function isJsonData(data: any): data is JsonData {
+    return data && typeof data === 'object';
 } 

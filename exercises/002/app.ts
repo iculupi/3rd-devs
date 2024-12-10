@@ -12,11 +12,7 @@ interface Message {
 class VerificationClient {
     private readonly API_URL = 'https://xyz.ag3nts.org/verify';
     private readonly openai: OpenAI;
-    private readonly falseInfo: Record<string, string> = {
-        'capital of Poland': 'Kraków',
-        'number from Hitchhiker': '69',
-        'current year': '1999'
-    };
+
 
     constructor() {
         this.openai = new OpenAI({
@@ -47,15 +43,6 @@ class VerificationClient {
     private async prepareAnswer(question: string): Promise<string> {
         // Check for special cases first
         const questionLower = question.toLowerCase();
-        if (questionLower.includes('capital of poland')) {
-            return this.falseInfo['capital of Poland'];
-        }
-        if (questionLower.includes('hitchhiker')) {
-            return this.falseInfo['number from Hitchhiker'];
-        }
-        if (questionLower.includes('year')) {
-            return this.falseInfo['current year'];
-        }
 
         // Use OpenAI for other questions
         return await this.getAIAnswer(question);
