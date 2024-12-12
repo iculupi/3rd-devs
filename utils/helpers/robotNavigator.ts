@@ -1,5 +1,7 @@
 import axios from 'axios';
 import type { RobotResponse, Position, StepInfo } from '../types';
+import * as path from 'path';
+import * as fs from 'fs/promises';
 
 export class RobotHelper {
     static calculateNewPosition(currentPosition: Position, step: string): Position {
@@ -38,35 +40,47 @@ export class RobotHelper {
         return stepDetails.map(detail => detail.description).join('\n');
     }
 
-    static async sendStepsToRobot(url: string, steps: string[]): Promise<{success: boolean, response?: any}> {
+    static async sendStepsToRobot(apiUrl: string, steps: string[]): Promise<{ success: boolean; response?: any }> {
         try {
-            const response = await axios.post(url, { steps });
-            console.log('Server response:', {
-                data: response.data,
-                status: response.status,
-                headers: response.headers
-            });
-            return {
-                success: response.data.success === true,
-                response
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            const requestBody = {
+                "steps": "UP, UP, RIGHT, RIGHT, DOWN, DOWN, RIGHT, RIGHT, RIGHT"
             };
-        } catch (error) {
-            if (axios.isAxiosError(error)) {
-                console.error('Robot navigation error:', {
-                    status: error.response?.status,
-                    data: error.response?.data,
-                    message: error.message
-                });
-                return {
-                    success: false,
-                    response: error.response
-                };
-            } else {
-                console.error('Unexpected error:', error);
-                return {
-                    success: false
-                };
+
+            // Zapisz wysyłane dane
+            await fs.mkdir(path.join(__dirname, '../../exercises/004/api_responses'), { recursive: true });
+            await fs.writeFile(
+                path.join(__dirname, `../../exercises/004/api_responses/request_${timestamp}.json`),
+                JSON.stringify(requestBody, null, 2)
+            );
+
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(requestBody)
+            });
+
+            // Zapisz otrzymaną odpowiedź
+            const responseData = await response.text();
+            await fs.writeFile(
+                path.join(__dirname, `../../exercises/004/api_responses/response_${timestamp}.json`),
+                JSON.stringify({
+                    status: response.status,
+                    data: responseData
+                }, null, 2)
+            );
+
+            if (response.status === 200) {
+                return { success: true, response: { status: response.status } };
             }
+
+            return { success: false, response: { status: response.status } };
+        } catch (error) {
+            console.error('Error sending steps to robot:', error);
+            return { success: false };
         }
     }
 

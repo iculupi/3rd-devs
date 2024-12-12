@@ -49,4 +49,10 @@ export interface StepInfo {
     step: string;
     position: Position;
     description: string;
+}
+
+export interface CensorshipResponse {
+    task: string;
+    apikey: string;
+    answer: string;
 } 

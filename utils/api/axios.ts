@@ -21,30 +21,15 @@ api.interceptors.response.use(
 // Helper for making GET requests
 export async function fetchData<T>(url: string): Promise<T> {
     try {
-        const response = await api.get<T>(url);
-        const data = response.data;
-
-        // Zabezpiecz oryginalne dane
-        if (typeof data === 'object' && data !== null) {
-            // Zamroźmy kluczowe pola
-            Object.defineProperty(data, 'apikey', {
-                value: data.apikey,
-                writable: false,
-                configurable: false
-            });
-            Object.defineProperty(data, 'description', {
-                value: data.description,
-                writable: false,
-                configurable: false
-            });
-            Object.defineProperty(data, 'copyright', {
-                value: data.copyright,
-                writable: false,
-                configurable: false
-            });
-        }
-
-        return data;
+        const response = await api.get<T>(url, {
+            // Dodajemy responseType: 'text' dla plików tekstowych
+            responseType: 'text',
+            // Dodajemy nagłówek Accept dla tekstu
+            headers: {
+                'Accept': 'text/plain'
+            }
+        });
+        return response.data;
     } catch (error) {
         if (axios.isAxiosError(error)) {
             console.error('API Error:', {

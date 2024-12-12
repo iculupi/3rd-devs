@@ -1,0 +1,414 @@
+{
+  "timestamp": "2024-12-12T20:44:17.582Z",
+  "context": "Before processing",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:17.690Z",
+  "context": "Before processing chunk 1/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.143Z",
+  "context": "After processing chunk 1/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.144Z",
+  "context": "Before processing chunk 2/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.150Z",
+  "context": "After processing chunk 2/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.152Z",
+  "context": "Before processing chunk 3/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.159Z",
+  "context": "After processing chunk 3/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.161Z",
+  "context": "Before processing chunk 4/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.167Z",
+  "context": "After processing chunk 4/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.169Z",
+  "context": "Before processing chunk 5/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.176Z",
+  "context": "After processing chunk 5/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.178Z",
+  "context": "Before processing chunk 6/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.187Z",
+  "context": "After processing chunk 6/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.189Z",
+  "context": "Before processing chunk 7/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.196Z",
+  "context": "After processing chunk 7/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.201Z",
+  "context": "Before processing chunk 8/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.207Z",
+  "context": "After processing chunk 8/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.209Z",
+  "context": "Before processing chunk 9/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.217Z",
+  "context": "After processing chunk 9/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.219Z",
+  "context": "Before processing chunk 10/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.226Z",
+  "context": "After processing chunk 10/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.232Z",
+  "context": "Before processing chunk 11/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.584Z",
+  "context": "After processing chunk 11/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.586Z",
+  "context": "Before processing chunk 12/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.591Z",
+  "context": "After processing chunk 12/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.594Z",
+  "context": "Before processing chunk 13/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.601Z",
+  "context": "After processing chunk 13/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.603Z",
+  "context": "Before processing chunk 14/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.900Z",
+  "context": "After processing chunk 14/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.902Z",
+  "context": "Before processing chunk 15/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.908Z",
+  "context": "After processing chunk 15/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.910Z",
+  "context": "Before processing chunk 16/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.917Z",
+  "context": "After processing chunk 16/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.919Z",
+  "context": "Before processing chunk 17/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.926Z",
+  "context": "After processing chunk 17/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.928Z",
+  "context": "Before processing chunk 18/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.934Z",
+  "context": "After processing chunk 18/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.938Z",
+  "context": "Before processing chunk 19/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.944Z",
+  "context": "After processing chunk 19/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.946Z",
+  "context": "Before processing chunk 20/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.956Z",
+  "context": "After processing chunk 20/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.960Z",
+  "context": "Before processing chunk 21/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.972Z",
+  "context": "After processing chunk 21/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.976Z",
+  "context": "Before processing chunk 22/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "%PUT-YOUR-API-KEY-HERE%",
+  "matches": false,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.987Z",
+  "context": "After processing chunk 22/22",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---
+{
+  "timestamp": "2024-12-12T20:44:18.988Z",
+  "context": "Final check before sending",
+  "original": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "current": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+  "matches": true,
+  "location": "    at logApiKeyChange (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\003\\app.ts:32:35)"
+}
+---

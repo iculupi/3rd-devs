@@ -1,0 +1,416 @@
+{
+  "apikey": "%PUT-YOUR-API-KEY-HERE%",
+  "description": "This is simple calibration data used for testing purposes. Do not use it in production environment!",
+  "copyright": "Copyright (C) 2238 by BanAN Technologies Inc.",
+  "test-data": [
+    {
+      "question": "93 + 20",
+      "answer": 113
+    },
+    {
+      "question": "13 + 90",
+      "answer": 103
+    },
+    {
+      "question": "100 + 7",
+      "answer": 107
+    },
+    {
+      "question": "24 + 7",
+      "answer": 31
+    },
+    {
+      "question": "33 + 35",
+      "answer": 68
+    },
+    {
+      "question": "30 + 91",
+      "answer": 121
+    },
+    {
+      "question": "3 + 18",
+      "answer": 21
+    },
+    {
+      "question": "39 + 34",
+      "answer": 73
+    },
+    {
+      "question": "27 + 21",
+      "answer": 48
+    },
+    {
+      "question": "57 + 19",
+      "answer": 76
+    },
+    {
+      "question": "4 + 1",
+      "answer": 5
+    },
+    {
+      "question": "95 + 1",
+      "answer": 96
+    },
+    {
+      "question": "17 + 27",
+      "answer": 44
+    },
+    {
+      "question": "70 + 20",
+      "answer": 90
+    },
+    {
+      "question": "69 + 74",
+      "answer": 143
+    },
+    {
+      "question": "94 + 45",
+      "answer": 139
+    },
+    {
+      "question": "52 + 9",
+      "answer": 61
+    },
+    {
+      "question": "9 + 76",
+      "answer": 85
+    },
+    {
+      "question": "89 + 59",
+      "answer": 148
+    },
+    {
+      "question": "35 + 50",
+      "answer": 85
+    },
+    {
+      "question": "20 + 9",
+      "answer": 29
+    },
+    {
+      "question": "86 + 7",
+      "answer": 93
+    },
+    {
+      "question": "57 + 85",
+      "answer": 142
+    },
+    {
+      "question": "41 + 56",
+      "answer": 97
+    },
+    {
+      "question": "90 + 95",
+      "answer": 185
+    },
+    {
+      "question": "7 + 31",
+      "answer": 38
+    },
+    {
+      "question": "97 + 26",
+      "answer": 123
+    },
+    {
+      "question": "41 + 60",
+      "answer": 101
+    },
+    {
+      "question": "15 + 4",
+      "answer": 19
+    },
+    {
+      "question": "6 + 12",
+      "answer": 18
+    },
+    {
+      "question": "21 + 57",
+      "answer": 78
+    },
+    {
+      "question": "97 + 17",
+      "answer": 114
+    },
+    {
+      "question": "96 + 59",
+      "answer": 155
+    },
+    {
+      "question": "21 + 91",
+      "answer": 112
+    },
+    {
+      "question": "77 + 11",
+      "answer": 88
+    },
+    {
+      "question": "85 + 56",
+      "answer": 141
+    },
+    {
+      "question": "44 + 53",
+      "answer": 97
+    },
+    {
+      "question": "65 + 6",
+      "answer": 71
+    },
+    {
+      "question": "82 + 58",
+      "answer": 140
+    },
+    {
+      "question": "68 + 65",
+      "answer": 133
+    },
+    {
+      "question": "18 + 20",
+      "answer": 38
+    },
+    {
+      "question": "24 + 20",
+      "answer": 44
+    },
+    {
+      "question": "78 + 61",
+      "answer": 139
+    },
+    {
+      "question": "35 + 17",
+      "answer": 52
+    },
+    {
+      "question": "86 + 22",
+      "answer": 108
+    },
+    {
+      "question": "45 + 7",
+      "answer": 52
+    },
+    {
+      "question": "78 + 42",
+      "answer": 120
+    },
+    {
+      "question": "24 + 36",
+      "answer": 60
+    },
+    {
+      "question": "13 + 12",
+      "answer": 25
+    },
+    {
+      "question": "29 + 26",
+      "answer": 55
+    },
+    {
+      "question": "57 + 99",
+      "answer": 156
+    },
+    {
+      "question": "33 + 63",
+      "answer": 96
+    },
+    {
+      "question": "67 + 1",
+      "answer": 68
+    },
+    {
+      "question": "63 + 95",
+      "answer": 158
+    },
+    {
+      "question": "21 + 78",
+      "answer": 99
+    },
+    {
+      "question": "76 + 52",
+      "answer": 128
+    },
+    {
+      "question": "54 + 77",
+      "answer": 131
+    },
+    {
+      "question": "13 + 70",
+      "answer": 83
+    },
+    {
+      "question": "69 + 96",
+      "answer": 165
+    },
+    {
+      "question": "86 + 64",
+      "answer": 150
+    },
+    {
+      "question": "50 + 91",
+      "answer": 141
+    },
+    {
+      "question": "39 + 37",
+      "answer": 76
+    },
+    {
+      "question": "45 + 65",
+      "answer": 110
+    },
+    {
+      "question": "74 + 29",
+      "answer": 103
+    },
+    {
+      "question": "73 + 25",
+      "answer": 98
+    },
+    {
+      "question": "56 + 3",
+      "answer": 59
+    },
+    {
+      "question": "38 + 94",
+      "answer": 132
+    },
+    {
+      "question": "25 + 76",
+      "answer": 101
+    },
+    {
+      "question": "54 + 91",
+      "answer": 145
+    },
+    {
+      "question": "49 + 27",
+      "answer": 76
+    },
+    {
+      "question": "8 + 53",
+      "answer": 61
+    },
+    {
+      "question": "73 + 5",
+      "answer": 78
+    },
+    {
+      "question": "80 + 1",
+      "answer": 81
+    },
+    {
+      "question": "93 + 100",
+      "answer": 193
+    },
+    {
+      "question": "33 + 48",
+      "answer": 81
+    },
+    {
+      "question": "55 + 47",
+      "answer": 102
+    },
+    {
+      "question": "67 + 30",
+      "answer": 97
+    },
+    {
+      "question": "59 + 81",
+      "answer": 140
+    },
+    {
+      "question": "22 + 6",
+      "answer": 28
+    },
+    {
+      "question": "57 + 65",
+      "answer": 122
+    },
+    {
+      "question": "72 + 64",
+      "answer": 136
+    },
+    {
+      "question": "78 + 7",
+      "answer": 85
+    },
+    {
+      "question": "16 + 20",
+      "answer": 36
+    },
+    {
+      "question": "92 + 58",
+      "answer": 150
+    },
+    {
+      "question": "21 + 25",
+      "answer": 46
+    },
+    {
+      "question": "75 + 48",
+      "answer": 123
+    },
+    {
+      "question": "14 + 88",
+      "answer": 102
+    },
+    {
+      "question": "37 + 73",
+      "answer": 110
+    },
+    {
+      "question": "64 + 8",
+      "answer": 72
+    },
+    {
+      "question": "30 + 20",
+      "answer": 50
+    },
+    {
+      "question": "75 + 25",
+      "answer": 100
+    },
+    {
+      "question": "86 + 71",
+      "answer": 157
+    },
+    {
+      "question": "83 + 34",
+      "answer": 117
+    },
+    {
+      "question": "39 + 88",
+      "answer": 127
+    },
+    {
+      "question": "50 + 50",
+      "answer": 100
+    },
+    {
+      "question": "81 + 50",
+      "answer": 131
+    },
+    {
+      "question": "83 + 72",
+      "answer": 155
+    },
+    {
+      "question": "70 + 19",
+      "answer": 89
+    },
+    {
+      "question": "89 + 23",
+      "answer": 112
+    },
+    {
+      "question": "84 + 6",
+      "answer": 90
+    }
+  ],
+  "chunk": {
+    "number": 2,
+    "total": 22,
+    "size": 100,
+    "range": {
+      "from": 100,
+      "to": 200
+    }
+  }
+}

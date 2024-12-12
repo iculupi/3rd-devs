@@ -1,0 +1,9 @@
+{
+  "timestamp": "2024-12-12T20:44:17.687Z",
+  "totalTests": 2137,
+  "chunks": 22,
+  "chunkSize": 100,
+  "apikey": "%PUT-YOUR-API-KEY-HERE%",
+  "description": "This is simple calibration data used for testing purposes. Do not use it in production environment!",
+  "copyright": "Copyright (C) 2238 by BanAN Technologies Inc."
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "response",
+  "data": {
+    "code": 0,
+    "message": "{{FLG:PERSONAL}}"
+  },
+  "metadata": {
+    "timestamp": "2024-12-12T22:56:10.029Z",
+    "inputLength": 97,
+    "outputLength": 90
+  },
+  "timestamp": "2024-12-12T22:56:10.030Z"
+}

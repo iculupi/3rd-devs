@@ -54,11 +54,14 @@ class RobotNavigator {
                     content: mapDescription
                 }
             ],
-            temperature: 0.1,
+            temperature: 0,
             response_format: { type: "json_object" }
         });
 
-        return JSON.parse(completion.choices[0].message.content || '{}');
+        const response = JSON.parse(completion.choices[0].message.content || '{}');
+        return {
+            steps: response.steps.split(', ')
+        };
     }
 
     public async navigate(useAutonomousMode: boolean = false): Promise<void> {

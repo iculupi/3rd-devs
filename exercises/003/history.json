@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "response",
+    "data": {
+      "code": 0,
+      "message": "{{FLG:JSONFIX}}"
+    },
+    "metadata": {
+      "tags": [
+        "api-response"
+      ],
+      "notes": "Final response from API",
+      "timestamp": "2024-12-12T20:44:19.104Z",
+      "totalProcessedTests": 2137
+    },
+    "timestamp": "2024-12-12T20:44:19.105Z"
+  }
+]
