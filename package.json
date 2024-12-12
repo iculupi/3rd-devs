@@ -98,7 +98,8 @@
     "task25": "bun run exercises/025/app.ts",
     "task:new": "bun run scripts/create-task.ts",
     "task:test": "bun test exercises/**/*.test.ts",
-    "task:lint": "bun run scripts/lint-tasks.ts"
+    "task:lint": "bun run scripts/lint-tasks.ts",
+    "check-keys": "bun scripts/check-keys.ts"
   },
   "peerDependencies": {
     "typescript": "^5.6.3"
