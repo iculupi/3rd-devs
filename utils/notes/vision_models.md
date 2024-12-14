@@ -1,3 +1,12 @@
+---
+title: Vision Language Models (VLM)
+topics: [Vision Language Models (VLM), Przegląd, Struktura, Przykłady użycia, Ograniczenia, Best Practices]
+keywords: []
+lastUpdated: 2024-12-14T02:09:16.825Z
+
+
+---
+
 # Vision Language Models (VLM)
 
 ## Przegląd

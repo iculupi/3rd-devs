@@ -1,3 +1,12 @@
+---
+title: Struktura Prework AI_devs 3
+topics: [Struktura Prework AI_devs 3, S00E01 - Generatywna Sztuczna Inteligencja, S00E02 - Prompt Engineering, S00E03 - API, S00E04 - Programowanie, S00E05 - Rozwój, Kluczowe Elementy Preworka]
+keywords: []
+lastUpdated: 2024-12-14T02:09:16.830Z
+
+
+---
+
 # Struktura Prework AI_devs 3
 
 ## S00E01 - Generatywna Sztuczna Inteligencja

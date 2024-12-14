@@ -1,3 +1,101 @@
+---
+title: Narzędzia i Integracje LLM
+topics: [Narzędzia i Integracje LLM, Asystenci Programisty, Automatyzacja Zadań, 1. Dokumentacja, 2. Code Review, 3. Testy, Prompt Engineering dla Narzędzi, 1. Struktura Promptów, 2. Przykładowe Szablony, Dobre Praktyki, 1. Projektowanie Narzędzi, 2. Integracja z Workflow, 3. Bezpieczeństwo, Implementacja, 1. Podstawowy Setup, 2. Walidacja i Bezpieczeństwo, Metryki i Monitoring, 1. Śledzenie Wykorzystania, 2. Analiza Jakości, Przydatne Zasoby]
+keywords: [typescript
+interface DocGenerator {
+  generateFunctionDocs(code: string): Promise<string>;
+  generateAPIReference(endpoints: APIEndpoint[]): Promise<string>;
+  updateReadme(changes: CodeChange[]): Promise<string>;
+}, typescript
+interface CodeReviewer {
+  reviewChanges(diff: string): Promise<ReviewComment[]>;
+  suggestImprovements(code: string): Promise<Suggestion[]>;
+  checkSecurityIssues(code: string): Promise<SecurityIssue[]>;
+}, typescript
+interface TestGenerator {
+  generateUnitTests(code: string): Promise<string>;
+  generateTestCases(spec: string): Promise<TestCase[]>;
+  suggestEdgeCases(functionCode: string): Promise<string[]>;
+}, typescript
+interface ToolPrompt {
+  context: string;      // Kontekst zadania
+  task: string;         // Konkretne zadanie
+  examples: string[];   // Przykłady użycia
+  constraints: string[]; // Ograniczenia
+  outputFormat: string; // Oczekiwany format
+}, typescript
+const templates = {
+  documentation: 
+    Given this code:
+    {{code}}
+    
+    Generate documentation that includes:
+    1. Overview
+    2. Parameters
+    3. Return values
+    4. Examples
+    
+    Format: JSDoc
+  ,
+  
+  codeReview: 
+    Review this code:
+    {{code}}
+    
+    Consider:
+    1. Code quality
+    2. Performance
+    3. Security
+    4. Best practices
+    
+    Format: Markdown list
+  
+};, typescript
+class AIToolManager {
+  private config: ToolConfig;
+  private llm: LLMService;
+  
+  constructor(config: ToolConfig) {
+    this.config = config;
+    this.llm = new LLMService(config.apiKey);
+  }
+  
+  async processTask(task: ToolTask): Promise<ToolResult> {
+    const prompt = this.buildPrompt(task);
+    const result = await this.llm.complete(prompt);
+    return this.validateResult(result);
+  }
+}, typescript
+class SecurityManager {
+  validateCode(code: string): boolean {
+    // Sprawdź pod kątem niebezpiecznych wzorców
+    return !DANGEROUS_PATTERNS.some(pattern => 
+      pattern.test(code)
+    );
+  }
+  
+  sanitizeOutput(output: string): string {
+    // Usuń potencjalnie niebezpieczne elementy
+    return output.replace(UNSAFE_PATTERNS, '');
+  }
+}, typescript
+interface ToolMetrics {
+  requests: number;
+  successRate: number;
+  averageLatency: number;
+  costPerRequest: number;
+}, typescript
+interface QualityMetrics {
+  codeQuality: number;
+  documentationCompleteness: number;
+  testCoverage: number;
+  securityScore: number;
+}, IDE Integracje, Narzędzia CLI, Platformy i Serwisy]
+lastUpdated: 2024-12-14T02:09:16.827Z
+
+
+---
+
 # Narzędzia i Integracje LLM
 
 ## Asystenci Programisty

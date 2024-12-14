@@ -1,136 +1,166 @@
-# Utils - Narzędzia i Dokumentacja
+# Utils - Narzędzia i Komponenty
 
-## Struktura Projektu
+## 📁 Struktura Projektu
 
+### 🔄 Core
+- `/core/` - Podstawowe komponenty
+  - `constants/` - Stałe aplikacji (limity tokenów, endpointy, etc.)
+  - `types/` - Typy TypeScript
+    - `api.ts` - Typy dla API
+    - `core.ts` - Podstawowe typy
+    - `data.ts` - Typy dla operacji na danych
+    - `llm.ts` - Typy dla LLM
+    - `validation.ts` - Typy walidacji
+    - `tasks.ts` - Typy zadań
+    - `tests.ts` - Typy testów
+
+### 🔧 API
+- `/api/` - Integracje API
+  - `clients/`
+    - `HttpClient.ts` - Klient HTTP (Axios)
+    - `OpenAIClient.ts` - Klient OpenAI
+  - `handlers/`
+    - `BaseApiHandler.ts` - Bazowy handler API
+
+### 🛠️ Helpers
+- `/helpers/` - Funkcje pomocnicze
+  - `data/` - Operacje na danych
+    - `ArrayProcessor.ts` - Operacje na tablicach
+    - `AudioProcessor.ts` - Przetwarzanie audio
+    - `FileManager.ts` - Operacje na plikach
+    - `JsonProcessor.ts` - Przetwarzanie JSON
+    - `TextProcessor.ts` - Przetwarzanie tekstu
+    - `VisionProcessor.ts` - Przetwarzanie obrazów
+  - `math/`
+    - `MathOperations.ts` - Operacje matematyczne
+    - `MathValidator.ts` - Walidacja matematyczna
+  - `validation/`
+    - `KeyValidator.ts` - Walidacja kluczy API
+    - `PathValidator.ts` - Walidacja ścieżek
+    - `TokenValidator.ts` - Walidacja tokenów
+
+### 🧠 LLM
+- `/llm/` - Zarządzanie LLM
+  - `cache/`
+    - `CacheManager.ts` - System cache
+  - `context/`
+    - `ContextManager.ts` - Zarządzanie kontekstem
+  - `memory/`
+    - `MemoryManager.ts` - System pamięci
+  - `safety/`
+    - `ModerationManager.ts` - Moderacja treści
+    - `PromptValidator.ts` - Walidacja promptów
+  - `RateLimiter.ts` - Limitowanie żądań
+  - `RetryHandler.ts` - Obsługa powtórzeń
+  - `SearchEngine.ts` - Silnik wyszukiwania
+
+## 🔑 Zmienne Środowiskowe (.env)
+```env
+OPENAI_API_KEY=sk-...
+PERSONAL_API_KEY=...
+LANGFUSE_SECRET_KEY=...
+LANGFUSE_PUBLIC_KEY=...
+ELEVENLABS_API_KEY=...
+GROQ_API_KEY=...
 ```
-utils/
-├── api/                 # Integracje z API
-├── calculators/         # Narzędzia obliczeniowe
-├── constants/          # Stałe i konfiguracje
-├── helpers/            # Funkcje pomocnicze
-├── llm/                # Integracje z modelami LLM
-├── notes/              # Dokumentacja techniczna
-└── prompts/            # Szablony promptów
+
+## 📦 Zależności (package.json)
+```json
+{
+  "dependencies": {
+    "openai": "^4.71.0",
+    "axios": "^1.6.2",
+    "sharp": "^0.33.5",
+    "dotenv": "^16.4.5"
+    // ... inne zależności
+  }
+}
 ```
 
-## Dokumentacja Techniczna
+## 🚀 Skrypty
+```bash
+# Instalacja
+bun install
 
-### Podstawy
-1. [Narzędzia i Integracje](./notes/tools_and_integrations.md)
-   - IDE Integracje
-   - Narzędzia CLI
-   - Platformy i Serwisy
+# Testy
+bun test
 
-2. [Analiza i Generowanie Kodu](./notes/code_analysis_generation.md)
-   - Statyczna Analiza
-   - Code Review
-   - Generowanie Kodu
-   - Testowanie
+# Linting
+bun lint
 
-3. [Debugowanie i Testowanie](./notes/debugging_testing.md)
-   - Asystent Debugowania
-   - Generatory Testów
-   - Analiza Błędów
-   - Metryki Jakości
+# Sprawdzanie kluczy API
+bun run check-keys
+```
 
-### Zaawansowane Tematy
-4. [Optymalizacja i Refaktoryzacja](./notes/code_optimization.md)
-   - Analiza Wydajności
-   - Refaktoryzacja
-   - Metryki
-   - Dobre Praktyki
+## 🔌 Integracje
+- OpenAI API (GPT-3.5, GPT-4)
+- Axios HTTP Client
+- Sharp (przetwarzanie obrazów)
+- Langfuse (monitoring)
+- ElevenLabs (synteza mowy)
+- Groq (alternatywne LLM)
 
-5. [Wyszukiwanie Semantyczne](./notes/semantic_search.md)
-   - Embeddingi
-   - Vector Store
-   - Chunking
-   - Preprocessing
+## 🛡️ Bezpieczeństwo
+- Walidacja kluczy API
+- Rate limiting
+- Moderacja treści
+- Bezpieczne przetwarzanie promptów
+- Walidacja tokenów
 
-6. [RAG Systems](./notes/rag_systems.md)
-   - Architektura RAG
-   - Retrieval
-   - Generacja
-   - Optymalizacja
+## 📊 Monitoring
+- Śledzenie kosztów API
+- Metryki wydajności
+- Logi operacji
+- Analiza błędów
+- Statystyki cache
 
-### Specjalistyczne Zagadnienia
-7. [Fine-tuning Modeli](./notes/model_fine_tuning.md)
-   - Przygotowanie Danych
-   - Trening
-   - Ewaluacja
-   - Monitoring
+## 🧪 Testy
+- Testy jednostkowe
+- Testy integracyjne
+- Testy end-to-end
+- Testy wydajnościowe
 
-8. [Zaawansowany Prompt Engineering](./notes/advanced_prompting.md)
-   - Struktury Promptów
-   - Chain-of-Thought
-   - Few-Shot Learning
-   - Optymalizacja
+## 📚 Dokumentacja
+Szczegółowa dokumentacja znajduje się w `/notes/`:
+- `/agents/` - Agenci i orkiestracja
+- `/core/` - Architektura i wytyczne
+- `/deployment/` - Wdrożenia i monitoring
+- `/embeddings/` - Embeddingi i wyszukiwanie
+- `/evaluation/` - Ewaluacja modeli
+- `/fine_tuning/` - Fine-tuning
+- `/integration/` - Integracje RAG
+- `/llm/` - Komponenty LLM
 
-9. [Bezpieczeństwo i Moderacja](./notes/security_moderation.md)
-   - Systemy Moderacji
-   - Filtry Bezpieczeństwa
-   - Audyt
-   - Compliance
-
-### Integracje
-10. [Integracje z Bazami Danych](./notes/database_integrations.md)
-    - Adaptery
-    - Natural Language to SQL
-    - Bezpieczne Zapytania
-    - Synchronizacja
-
-11. [Streaming i WebSocket](./notes/streaming_websockets.md)
-    - Stream Manager
-    - WebSocket Handler
-    - Implementacje
-    - Monitoring
-
-## Narzędzia
-
-### API
-- `axios.ts` - Konfiguracja klienta HTTP
-- `baseApi.ts` - Podstawowa klasa API
-- `openai.ts` - Integracja z OpenAI
-
-### Helpers
-- `arrayUtils.ts` - Operacje na tablicach
-- `fileUtils.ts` - Operacje na plikach
-- `textSplitter.ts` - Dzielenie tekstu
-- `tokenCounter.ts` - Liczenie tokenów
-- `mathUtils.ts` - Funkcje matematyczne
-- `logManager.ts` - System logowania
-
-### Kalkulatory
-- `mathFixer.ts` - Naprawianie wyrażeń matematycznych
-
-## Użycie
+## 🔍 Przykłady Użycia
 
 ```typescript
-import { TokenCounter } from './helpers/tokenCounter';
-import { TextSplitter } from './helpers/textSplitter';
-import { OpenAIApi } from './api/openai';
+// Przykład użycia OpenAI
+import { openai } from './api/clients/OpenAIClient';
+import { TextProcessor } from './helpers/data/TextProcessor';
+import { TokenValidator } from './helpers/validation/TokenValidator';
 
-// Przykład użycia
-const tokenCounter = new TokenCounter();
-const textSplitter = new TextSplitter();
-const openai = new OpenAIApi();
+// Przetwarzanie tekstu
+const text = "Długi tekst...";
+const chunks = TextProcessor.splitIntoChunks(text, 1000);
+
+// Walidacja tokenów
+const validation = TokenValidator.validateOperation(text);
+
+// Użycie LLM
+const completion = await openai.chat.completions.create({
+    model: "gpt-3.5-turbo",
+    messages: [{ role: "user", content: "Hello!" }]
+});
 ```
 
-## Rozwój Projektu
+## 🤝 Kontrybucje
+1. Fork repozytorium
+2. Stwórz branch (`git checkout -b feature/amazing_feature`)
+3. Commit zmiany (`git commit -m 'Add amazing feature'`)
+4. Push do brancha (`git push origin feature/amazing_feature`)
+5. Otwórz Pull Request
 
-1. Dokumentacja
-   - Aktualizuj notatki przy zmianach
-   - Dodawaj przykłady użycia
-   - Utrzymuj spójność interfejsów
-
-2. Testowanie
-   - Pisz testy jednostkowe
-   - Dokumentuj edge cases
-   - Monitoruj wydajność
-
-3. Bezpieczeństwo
-   - Waliduj inputy
-   - Zabezpieczaj API
-   - Loguj operacje
-
-## Licencja
-MIT
+## 📝 Konwencje
+- [Konwencje nazewnictwa](./CONVENTIONS.md)
+- [Struktura projektu](./STRUCTURE.md)
+- [Wytyczne rozwoju](./GUIDELINES.md)

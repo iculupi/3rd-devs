@@ -1,40 +1,55 @@
-import { mkdir, rename, exists, write } from 'fs/promises';
+import { mkdir, rename, exists, writeFile, readdir } from 'fs/promises';
 import { join } from 'path';
 
-// Struktura katalogów i mapowanie plików
+// Zaktualizowana struktura katalogów i mapowanie plików
 const noteStructure = {
-  rag: {
-    basics: [],
-    optimization: ['performance.md'],
-    testing: ['rag_testing.md'],
-    deployment: [],
-    monitoring: []
-  },
-  models: {
-    fine_tuning: [],
-    evaluation: ['model_evaluation.md'],
-    deployment: ['model_deployment.md'],
-    optimization: ['model_optimization.md'],
-    management: ['model_management.md']
-  },
   agents: {
-    basics: ['agent_basics.md'],
+    base: ['agent_basics.md'],
     memory: ['memory.md'],
     interactions: ['interactions.md'],
-    tools: ['tools.md'],
     orchestration: ['orchestration.md']
   },
-  common: {
-    security: ['ml_security.md'],
-    monitoring: ['analytics.md'],
-    integrations: ['external_tools.md']
+  core: {
+    architecture: ['architecture.md'],
+    cursor: ['cursor_assistant_guide.md'],
+    examples: ['examples_catalog.md'],
+    guidelines: ['development_guidelines.md'],
+    tools: ['developer_tools.md']
+  },
+  deployment: {
+    base: ['model_deployment.md'],
+    monitoring: ['monitoring_analytics.md']
+  },
+  embeddings: {
+    base: ['embedding_basics.md', 'embeddings_rag.md'],
+    search: ['semantic_search.md'],
+    vector_stores: ['vector_stores.md']
+  },
+  evaluation: {
+    base: ['model_evaluation.md']
+  },
+  fine_tuning: {
+    base: ['basics.md']
+  },
+  integration: {
+    base: ['rag_integration.md']
+  },
+  integrations: {
+    api: ['api_integrations.md'],
+    database: ['database_integrations.md'],
+    external: ['external_tools.md']
+  },
+  llm: {
+    evaluation: ['debugging_testing.md'],
+    optimization: ['code_analysis_generation.md', 'code_optimization.md'],
+    prompting: ['advanced_prompting.md']
   }
 };
 
 async function organizeNotes() {
   const notesDir = join(process.cwd(), 'utils', 'notes');
 
-  // Tworzenie struktury katalogów
+  // 1. Tworzenie struktury katalogów
   for (const [mainDir, subDirs] of Object.entries(noteStructure)) {
     for (const subDir of Object.keys(subDirs)) {
       const fullPath = join(notesDir, mainDir, subDir);
@@ -45,63 +60,65 @@ async function organizeNotes() {
     }
   }
 
-  // Przenoszenie plików
-  for (const [mainDir, subDirs] of Object.entries(noteStructure)) {
-    for (const [subDir, files] of Object.entries(subDirs)) {
-      for (const file of files) {
-        const sourcePath = join(notesDir, file);
-        const targetPath = join(notesDir, mainDir, subDir, file);
-
-        // Sprawdzanie czy plik źródłowy istnieje
-        if (await exists(sourcePath)) {
-          // Przenoszenie pliku
-          await rename(sourcePath, targetPath);
-          console.log(`Moved ${file} to ${mainDir}/${subDir}/`);
-        } else {
-          console.log(`Warning: Source file not found: ${file}`);
+  // 2. Przenoszenie plików do odpowiednich katalogów
+  const files = await readdir(notesDir);
+  for (const file of files) {
+    if (file.endsWith('.md')) {
+      let moved = false;
+      
+      // Szukanie właściwego katalogu dla pliku
+      for (const [mainDir, subDirs] of Object.entries(noteStructure)) {
+        for (const [subDir, files] of Object.entries(subDirs)) {
+          if (files.includes(file)) {
+            const sourcePath = join(notesDir, file);
+            const targetPath = join(notesDir, mainDir, subDir, file);
+            
+            if (await exists(sourcePath)) {
+              await rename(sourcePath, targetPath);
+              console.log(`Moved ${file} to ${mainDir}/${subDir}/`);
+              moved = true;
+              break;
+            }
+          }
         }
+        if (moved) break;
+      }
+      
+      if (!moved) {
+        console.warn(`Warning: No mapping found for ${file}`);
       }
     }
   }
 
-  // Aktualizacja README.md
+  // 3. Generowanie README.md
+  const readmeContent = generateReadme();
   const readmePath = join(notesDir, 'README.md');
-  if (await exists(readmePath)) {
-    console.log('README.md already exists, skipping update');
-  } else {
-    const readmeContent = generateReadme();
-    await write(readmePath, readmeContent);
-    console.log('Created new README.md');
-  }
+  await writeFile(readmePath, readmeContent);
+  console.log('Updated README.md');
 }
 
 function generateReadme(): string {
-  return `# Struktura Notatek
+  return `# Dokumentacja Projektu
 
-## Sezon 3 - RAG
-${Object.entries(noteStructure.rag)
-  .map(([dir, files]) => `- \`/rag/${dir}/\` - ${files.length} plików`)
-  .join('\n')}
+## Struktura Dokumentacji
 
-## Sezon 4 - Model Management
-${Object.entries(noteStructure.models)
-  .map(([dir, files]) => `- \`/models/${dir}/\` - ${files.length} plików`)
-  .join('\n')}
+${Object.entries(noteStructure)
+    .map(([mainDir, subDirs]) => `
+### ${mainDir.charAt(0).toUpperCase() + mainDir.slice(1)}
+${Object.entries(subDirs)
+    .map(([subDir, files]) => `- \`/${mainDir}/${subDir}/\` - ${files.length} plików`)
+    .join('\n')}`)
+    .join('\n')}
 
-## Sezon 5 - Agenci i Asystenci
-${Object.entries(noteStructure.agents)
-  .map(([dir, files]) => `- \`/agents/${dir}/\` - ${files.length} plików`)
-  .join('\n')}
-
-## Wspólne
-${Object.entries(noteStructure.common)
-  .map(([dir, files]) => `- \`/common/${dir}/\` - ${files.length} plików`)
-  .join('\n')}
+## Konwencje
+1. Każdy plik powinien być w odpowiednim podkatalogu tematycznym
+2. Nazwy plików używają kebab-case
+3. Każdy plik powinien mieć sekcję frontmatter z metadanymi
 `;
 }
 
 // Funkcja do walidacji struktury po reorganizacji
-async function validateStructure() {
+async function validateStructure(): Promise<boolean> {
   let allValid = true;
   
   for (const [mainDir, subDirs] of Object.entries(noteStructure)) {
@@ -135,5 +152,4 @@ async function main() {
   }
 }
 
-// Uruchomienie z Bun
 main(); 

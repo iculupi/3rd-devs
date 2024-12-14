@@ -1,3 +1,27 @@
+---
+title: Mapa Projektu AI_devs 3
+topics: [Mapa Projektu AI_devs 3, Struktura Katalogów, Konwencje Nazewnictwa, Gdzie Co Dodawać, Nowe Utils, Dokumentacja, Checklist Przy Dodawaniu Nowego Utilsa, Checklist Przy Dodawaniu Nowego Promptu, Integracja z Istniejącym Kodem, Przydatne Komendy, Dodaj nowego managera, Dodaj nowy prompt, Uwagi]
+keywords: [project/
+├── utils/
+│   ├── llm/              # Managery LLM
+│   ├── prompts/          # Prompty i szablony
+│   ├── database/         # Integracje z bazami
+│   ├── api/              # Handlery API
+│   ├── helpers/          # Funkcje pomocnicze
+│   └── notes/            # Dokumentacja techniczna
+├── tests/                # Testy
+└── exercises/            # Ćwiczenia z kursu, bash
+# Dodaj nowego managera
+touch utils/llm/newManager.ts
+touch utils/llm/__tests__/newManager.test.ts
+
+# Dodaj nowy prompt
+touch utils/prompts/newPrompt.md, LLM Managery, Prompty, Integracje, Architektura, Dobre praktyki, Notatki z kursu]
+lastUpdated: 2024-12-14T02:09:16.830Z
+
+
+---
+
 # Mapa Projektu AI_devs 3
 
 ## Struktura Katalogów

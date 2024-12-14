@@ -1,3 +1,38 @@
+---
+title: Text Processing - Szczegółowa Dokumentacja
+topics: [Text Processing - Szczegółowa Dokumentacja, 1. Narzędzia i Biblioteki, Text Splitter, Markdown Parser, PDF Parser, 2. Przykłady Implementacji, Chunking Tekstu, Parsowanie Dokumentów, Normalizacja Tekstu, 3. Obsługa Formatów, Wspierane Formaty, Konwersja Formatów, 4. Best Practices, Optymalizacja, 5. Przydatne Snippety, Czyszczenie Tekstu, Ekstrakcja Kluczowych Informacji, 6. Troubleshooting, Typowe Problemy, 7. Alternatywne Rozwiązania, Local Processing, Cloud Services]
+keywords: [typescript
+import { TextSplitter } from '../utils/helpers';, typescript
+import { marked } from 'marked';, typescript
+import { PDFParser } from '../utils/helpers';, typescript
+import { TextUtils } from '../utils/helpers';
+
+// Dzielenie tekstu na chunki
+const chunks = await TextUtils.splitIntoChunks(text, maxChunkSize);, typescript
+// Konwersja różnych formatów do tekstu
+const textContent = await TextUtils.parseDocument(filePath);, typescript
+// Czyszczenie i normalizacja tekstu
+const normalizedText = TextUtils.normalizeText(input);, typescript
+// Konwersja do czystego tekstu
+await TextUtils.convertToPlainText(inputPath, outputPath);, typescript
+const cleanText = (text: string): string => {
+    return text
+        .replace(/\s+/g, ' ')
+        .replace(/[^\w\s]/g, '')
+        .trim();
+};, typescript
+function extractEntities(text: string) {
+    const emails = text.match(/[\w.-]+@[\w.-]+\.\w+/g) || [];
+    const phones = text.match(/\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/g) || [];
+    const urls = text.match(/https?:\/\/[^\s]+/g) || [];
+    
+    return { emails, phones, urls };
+}]
+lastUpdated: 2024-12-14T02:09:16.827Z
+
+
+---
+
 # Text Processing - Szczegółowa Dokumentacja
 
 ## 1. Narzędzia i Biblioteki

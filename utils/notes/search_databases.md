@@ -1,3 +1,55 @@
+---
+title: Search & Databases - Szczegółowa Dokumentacja
+topics: [Search & Databases - Szczegółowa Dokumentacja, 1. Narzędzia i Biblioteki, Algolia, Qdrant, Neo4j, 2. Przykłady Implementacji, Algolia Search, Vector Search, Graph Queries, 3. Optymalizacje, Indeksowanie, 4. Best Practices, Search Quality, 5. Przydatne Snippety, Hybrid Search Implementation, Batch Processing, 6. Troubleshooting, Typowe Problemy, 7. Alternatywne Rozwiązania, Search Engines, Vector Databases, Graph Databases]
+keywords: [typescript
+import algoliasearch from 'algoliasearch';, typescript
+import { QdrantClient } from '@qdrant/js-client-rest';, typescript
+import neo4j from 'neo4j-driver';, typescript
+const searchClient = algoliasearch(
+    process.env.ALGOLIA_APP_ID!,
+    process.env.ALGOLIA_API_KEY!
+);
+
+const index = searchClient.initIndex('your_index');
+const results = await index.search('query');, typescript
+const client = new QdrantClient({
+    url: process.env.QDRANT_URL
+});
+
+const similar = await client.search({
+    collection_name: "documents",
+    vector: queryVector,
+    limit: 5
+});, typescript
+const session = driver.session();
+try {
+    const result = await session.run(
+        'MATCH (n:Node)-[:RELATES_TO]->(m:Node) RETURN n, m'
+    );
+} finally {
+    await session.close();
+}, typescript
+async function hybridSearch(query: string) {
+    const [textResults, vectorResults] = await Promise.all([
+        searchText(query),
+        searchVectors(query)
+    ]);
+    
+    return mergeResults(textResults, vectorResults);
+}, typescript
+async function batchIndex(documents: Document[]) {
+    const batches = chunk(documents, 1000);
+    for (const batch of batches) {
+        await index.saveObjects(batch, {
+            autoGenerateObjectIDIfNotExist: true
+        });
+    }
+}]
+lastUpdated: 2024-12-14T02:09:16.828Z
+
+
+---
+
 # Search & Databases - Szczegółowa Dokumentacja
 
 ## 1. Narzędzia i Biblioteki

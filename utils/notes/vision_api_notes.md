@@ -1,3 +1,17 @@
+---
+title: Vision API - Notatki Implementacyjne
+topics: [Vision API - Notatki Implementacyjne, Przygotowanie Środowiska, Wymagane Klucze API, Konfiguracja Projektu, Obsługa Błędów, Typowe Problemy, Best Practices, Przygotowanie Obrazów, Prompting, Przetwarzanie Wyników]
+keywords: [bash
+bun add sharp @types/sharp, bash
+exercises/XXX/
+├── images/        # Obrazy źródłowe
+├── output/        # Wyniki analiz
+└── scripts/       # Skrypty zadania]
+lastUpdated: 2024-12-14T02:09:16.826Z
+
+
+---
+
 # Vision API - Notatki Implementacyjne
 
 ## Przygotowanie Środowiska

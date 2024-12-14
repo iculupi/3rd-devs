@@ -1,3 +1,36 @@
+---
+title: Utils dla AI_devs 3
+topics: [Utils dla AI_devs 3, Struktura Katalogów, Managery LLM, 1. Memory Manager, 2. Cost Manager, 3. Safety Manager, 4. Rate Limit Manager, 5. Cache Manager, 6. Context Manager, 7. Search Manager, 8. Embedding Manager, Dobre Praktyki, Przykład Użycia]
+keywords: [utils/
+  ├── llm/              # Managery do pracy z LLM
+  ├── database/         # Integracje z bazami danych
+  ├── api/              # Handlery API
+  └── helpers/          # Funkcje pomocnicze, typescript
+const memoryManager = new LLMMemoryManager();
+const costManager = new LLMCostManager();
+const safetyManager = new PromptSafetyManager();
+
+// Przykład przetwarzania promptu
+async function processPrompt(prompt: string) {
+  // 1. Sprawdź bezpieczeństwo
+  if (!safetyManager.validatePrompt(prompt)) {
+    throw new Error('Unsafe prompt');
+  }
+
+  // 2. Sprawdź dostępne tokeny
+  const tokens = memoryManager.getAvailableTokens();
+  
+  // 3. Sprawdź koszty
+  const cost = costManager.estimateCost(tokens);
+  
+  // 4. Przetwórz prompt
+  // ...
+}]
+lastUpdated: 2024-12-14T02:09:16.827Z
+
+
+---
+
 # Utils dla AI_devs 3
 
 ## Struktura Katalogów

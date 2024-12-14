@@ -1,3 +1,12 @@
+---
+title: Dobre Praktyki z Preworka
+topics: [Dobre Praktyki z Preworka, Projektowanie Promptów, Bezpieczeństwo, Rozwój, Optymalizacja]
+keywords: []
+lastUpdated: 2024-12-14T02:09:16.830Z
+
+
+---
+
 # Dobre Praktyki z Preworka
 
 ## Projektowanie Promptów

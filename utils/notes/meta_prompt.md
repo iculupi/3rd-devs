@@ -1,3 +1,12 @@
+---
+title: Meta Prompt dla AI_devs 3
+topics: [Meta Prompt dla AI_devs 3, Kontekst Systemowy, Kluczowe Kompetencje, Format Odpowiedzi, Priorytety]
+keywords: [Zarządzanie Zasobami, Bezpieczeństwo, Integracje, Dobre Praktyki]
+lastUpdated: 2024-12-14T02:09:16.831Z
+
+
+---
+
 # Meta Prompt dla AI_devs 3
 
 ## Kontekst Systemowy
