@@ -1,0 +1,16 @@
+{
+  "timestamp": "2024-12-15T03:14:55.084Z",
+  "type": "request",
+  "data": {
+    "people": [
+      "2024-11-12_report-00-sektor_C4.txt",
+      "2024-11-12_report-07-sektor_C4.txt",
+      "2024-11-12_report-10-sektor-C1.mp3"
+    ],
+    "hardware": [
+      "2024-11-12_report-13.png",
+      "2024-11-12_report-15.png",
+      "2024-11-12_report-17.png"
+    ]
+  }
+}
