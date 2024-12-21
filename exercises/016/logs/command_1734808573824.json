@@ -1,0 +1,10 @@
+{
+  "timestamp": "2024-12-21T19:16:13.824Z",
+  "data": {
+    "command": "REPAIR IMG_1444.PNG.",
+    "response": {
+      "code": -343,
+      "message": "I don't have image named \"IMG_1444.PNG.\" :("
+    }
+  }
+}

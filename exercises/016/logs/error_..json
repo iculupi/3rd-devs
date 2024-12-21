@@ -1,0 +1,9 @@
+{
+  "timestamp": "2024-12-21T19:10:17.595Z",
+  "data": {
+    "code": "EEXIST",
+    "path": "C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\016\\data\\images",
+    "syscall": "open",
+    "errno": -17
+  }
+}

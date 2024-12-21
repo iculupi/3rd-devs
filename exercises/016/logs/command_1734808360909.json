@@ -1,0 +1,10 @@
+{
+  "timestamp": "2024-12-21T19:12:40.909Z",
+  "data": {
+    "command": "DARKEN IMG_1410.PNG",
+    "response": {
+      "code": 0,
+      "message": "Jest źle. Bardzo źle. Ta operacja nic nam nie dała. Nie wydobyłą nowych szczegółów, a może nawet popsuła zdjęcie"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2024-12-21T19:15:16.534Z",
+  "data": {
+    "command": "BRIGHTEN .",
+    "response": {
+      "code": -341,
+      "message": "Wrong use of tools. Correct format is \"TOOL IMG_*.PNG\" where TOOL is one of: REPAIR, DARKEN, BRIGHTEN"
+    }
+  }
+}

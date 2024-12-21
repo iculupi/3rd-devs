@@ -1,0 +1,13 @@
+{
+  "timestamp": "2024-12-21T19:16:13.420Z",
+  "data": {
+    "filename": "IMG_559.PNG",
+    "originalUrl": "https://centrala.ag3nts.org/dane/barbara/IMG_559.PNG",
+    "currentFilename": "IMG_559_NRR7.PNG",
+    "processed": true,
+    "commands": [
+      "REPAIR",
+      "DARKEN"
+    ]
+  }
+}

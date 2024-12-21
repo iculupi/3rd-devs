@@ -1,0 +1,12 @@
+{
+  "timestamp": "2024-12-21T19:16:13.600Z",
+  "data": {
+    "filename": "IMG_1410.PNG",
+    "originalUrl": "https://centrala.ag3nts.org/dane/barbara/IMG_1410.PNG",
+    "currentFilename": "IMG_1410_FXER.PNG",
+    "processed": true,
+    "commands": [
+      "BRIGHTEN"
+    ]
+  }
+}

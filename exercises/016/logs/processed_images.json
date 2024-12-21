@@ -1,0 +1,49 @@
+{
+  "timestamp": "2024-12-21T19:13:26.712Z",
+  "data": [
+    {
+      "filename": "IMG_559.PNG",
+      "url": "https://centrala.ag3nts.org/dane/barbara/IMG_559.PNG",
+      "processed": true,
+      "commands": [
+        "REPAIR",
+        "BRIGHTEN",
+        "DARKEN"
+      ],
+      "description": "Co tu się... no nie... to nie wygląda dobrze. Spróbuj czegoś innego."
+    },
+    {
+      "filename": "IMG_1410.PNG",
+      "url": "https://centrala.ag3nts.org/dane/barbara/IMG_1410.PNG",
+      "processed": true,
+      "commands": [
+        "REPAIR",
+        "BRIGHTEN",
+        "DARKEN"
+      ],
+      "description": "Ejjj... no weź... to wygląda jeszcze gorzej niż przed operacją. Weź spróbuj czegoś innego."
+    },
+    {
+      "filename": "IMG_1443.PNG",
+      "url": "https://centrala.ag3nts.org/dane/barbara/IMG_1443.PNG",
+      "processed": true,
+      "commands": [
+        "REPAIR",
+        "BRIGHTEN",
+        "DARKEN"
+      ],
+      "description": "Ejjj... no weź... to wygląda jeszcze gorzej niż przed operacją. Weź spróbuj czegoś innego."
+    },
+    {
+      "filename": "IMG_1444.PNG",
+      "url": "https://centrala.ag3nts.org/dane/barbara/IMG_1444.PNG",
+      "processed": true,
+      "commands": [
+        "REPAIR",
+        "BRIGHTEN",
+        "DARKEN"
+      ],
+      "description": "Jest źle. Bardzo źle. Ta operacja nic nam nie dała. Nie wydobyłą nowych szczegółów, a może nawet popsuła zdjęcie"
+    }
+  ]
+}

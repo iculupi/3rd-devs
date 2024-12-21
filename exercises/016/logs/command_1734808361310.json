@@ -1,0 +1,15 @@
+{
+  "timestamp": "2024-12-21T19:12:41.310Z",
+  "data": {
+    "command": "Barbara to kobieta w średnim wieku. Oto jej szczegółowy rysopis:\n\n1. Włosy:\n- Kolor: rude, intensywny odcień\n- Długość: krótkie, do linii żuchwy\n- Charakterystyczna grzywka na prawą stronę\n- Widoczne naturalne fale\n\n2. Twarz:\n- Kształt: owalny, z wyraźnie zarysowaną linią szczęki\n- Oczy: duże, w kolorze piwnym\n- Brwi: naturalne, wyraziste, szeroko rozstawione\n\n3. Znaki szczególne:\n- Wyraźne znamię na prawym policzku, okrągłe, ciemne\n- Mała blizna nad lewą brwią (około 1,5 cm)\n- Charakterystyczny dołeczek w brodzie\n- Delikatne zmarszczki mimiczne wokół oczu\n\n4. Dodatkowe cechy:\n- Nos prosty, proporcjonalny do twarzy\n- Usta średniej wielkości, z wyraźnie zarysowanym łukiem Kupidyna\n- Wysoko osadzone kości policzkowe\n- Jasna karnacja z delikatnymi piegami\n\n5. Elementy charakterystyczne:\n- Zawsze nosi srebrną bransoletkę na prawym nadgarstku\n- Widoczny mały tatuaż za lewym uchem (symbol gwiazdy)\n- Często ma na sobie ciemną marynarkę\n- Elegancka, wyprostowana postawa",
+    "response": {
+      "code": -346,
+      "message": "Słaby ten rysopis. Ciągle nam czegoś brakuje. Odczytaj pole \"hints\"",
+      "hints": [
+        "Gdzie znajduje się tatuaż?",
+        "Coś jeszcze charakterystycznego ma w swoim wyglądzie Barbara?",
+        "Jaki kolor włosów ma Barbara?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2024-12-21T19:16:02.743Z",
+  "data": {
+    "command": "BRIGHTEN IMG_559_FGR4.PNG",
+    "response": {
+      "code": 0,
+      "message": "Co tu się... no nie... to nie wygląda dobrze. Spróbuj czegoś innego."
+    }
+  }
+}

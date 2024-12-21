@@ -1,0 +1,13 @@
+{
+  "timestamp": "2024-12-21T19:09:10.094Z",
+  "type": "response",
+  "data": {
+    "code": -346,
+    "message": "Słaby ten rysopis. Ciągle nam czegoś brakuje. Odczytaj pole \"hints\"",
+    "hints": [
+      "Skup się na znakach szczególnych",
+      "Coś jeszcze charakterystycznego ma w swoim wyglądzie Barbara?",
+      "Jaki kolor włosów ma Barbara?"
+    ]
+  }
+}
