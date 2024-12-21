@@ -1,0 +1,8 @@
+{
+  "timestamp": "2024-12-21T22:51:38.418Z",
+  "type": "response",
+  "data": {
+    "code": -341,
+    "message": "Your answer have to be an array with 3 elements"
+  }
+}

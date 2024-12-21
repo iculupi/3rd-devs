@@ -1,15 +1,36 @@
-# Lesson Notes - Exercise 017
+# Lekcja 017 - Web Crawler
 
-## Key Concepts
-- [Concept 1]
-- [Concept 2]
-- [Concept 3]
+## Kluczowe Koncepcje
+1. Web Crawling
+2. Analiza treści
+3. Unikanie pułapek
+4. Optymalizacja zasobów
+5. Cache'owanie
 
-## Implementation Details
-- [Detail 1]
-- [Detail 2]
-- [Detail 3]
+## Implementacja
+1. Pobieranie stron:
+   - Obsługa różnych typów URL
+   - Zarządzanie timeoutami
+   - Obsługa błędów
 
-## Resources & References
-- [Resource 1]
-- [Resource 2]
+2. Analiza treści:
+   - Parsowanie HTML
+   - Ekstrakcja tekstu
+   - Identyfikacja linków
+
+3. Zarządzanie crawlerem:
+   - Śledzenie odwiedzonych stron
+   - Unikanie pętli
+   - Limitowanie głębokości
+
+4. Optymalizacja:
+   - Cache'owanie wyników
+   - Inteligentne wybieranie linków
+   - Minimalizacja requestów
+
+## Wnioski
+1. Ważne jest inteligentne przeszukiwanie
+2. Należy unikać pułapek
+3. Cache'owanie jest kluczowe
+4. Optymalizacja tokenów ma znaczenie
+5. Warto analizować kontekst linków

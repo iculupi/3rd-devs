@@ -1,7 +1,8 @@
 export const API_ENDPOINTS = {
-    CENTRALA: 'https://centrala.ag3nts.org',
-    REPORT: 'https://centrala.ag3nts.org/report'
-} as const;
+    BASE_URL: 'https://centrala.ag3nts.org',
+    REPORT: 'https://centrala.ag3nts.org/report',
+    DATA: 'https://centrala.ag3nts.org/data'
+};
 
 export const CHUNK_SIZE = 10;
 

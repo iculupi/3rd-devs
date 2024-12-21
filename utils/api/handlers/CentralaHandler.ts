@@ -1,6 +1,7 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
 import { API_ENDPOINTS } from '../../core/constants';
+import axios from 'axios';
 
 interface CentralaResponse {
     timestamp: string;
@@ -88,5 +89,23 @@ export class CentralaHandler {
         };
 
         return this.sendAndLog(requestData);
+    }
+
+    async getData(fileName: string): Promise<any> {
+        const url = `${API_ENDPOINTS.DATA}/${process.env.PERSONAL_API_KEY}/${fileName}`;
+        try {
+            const response = await axios.get(url, {
+                headers: {
+                    'Accept': '*/*',
+                    'Cache-Control': 'no-cache',
+                    'Connection': 'keep-alive',
+                    'Accept-Encoding': 'gzip, deflate, br'
+                }
+            });
+            return response.data;
+        } catch (error) {
+            console.error("Error getting data:", error);
+            throw error;
+        }
     }
 } 
