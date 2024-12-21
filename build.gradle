@@ -1,0 +1,29 @@
+buildscript {
+    ext {
+        kotlin_version = '1.8.0'
+        agp_version = '8.1.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'com.android.application' version "$agp_version" apply false
+    id 'com.android.library' version "$agp_version" apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+} 

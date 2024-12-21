@@ -1,0 +1,15 @@
+{
+  "timestamp": "2024-12-21T15:02:54.157Z",
+  "type": "request",
+  "data": {
+    "task": "arxiv",
+    "apikey": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+    "answer": {
+      "01": "Użyto owocu truskawki.",
+      "02": "Na rynku Krakowa wykonano testową fotografię użytą podczas testu przesyłania multimediów.",
+      "03": "Bomba chciał znaleźć hotel w Grudziądzu.",
+      "04": "Resztki jedzenia znalezione w pobliżu komory temporalnej to pizza z ananasem, które było jeszcze ciepłe i chrupiące.",
+      "05": "Litery BNW w nazwie nowego modelu językowego pochodzą od \"Brave New World\" – Nowy Wspaniały Świat."
+    }
+  }
+}

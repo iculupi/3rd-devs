@@ -4,7 +4,7 @@ config();
 // Check required API keys
 const requiredKeys = [
     'OPENAI_API_KEY',
-    // Add other required keys
+    'PERSONAL_API_KEY'
 ];
 
 function checkApiKeys() {

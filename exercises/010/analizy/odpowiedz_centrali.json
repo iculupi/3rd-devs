@@ -1,0 +1,17 @@
+{
+  "timestamp": "2024-12-21T13:19:09.079Z",
+  "type": "response",
+  "request": {
+    "url": "https://centrala.ag3nts.org/data/ff713a68-2511-4319-adc4-cb76d2cd10bf/arxiv",
+    "task": "arxiv",
+    "apikey": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+    "answer": {
+      "ID-pytania-01": "Użyto owocu truskawki.",
+      "ID-pytania-02": "Na rynku Krakowa wykonano testową fotografię użytą podczas testu przesyłania multimediów.",
+      "ID-pytania-03": "Bomba chciał znaleźć hotel w Grudziądzu.",
+      "ID-pytania-04": "Resztki jedzenia znalezione w pobliżu komory temporalnej to ciasto, które było jeszcze ciepłe i chrupiące.",
+      "ID-pytania-05": "Litery BNW w nazwie nowego modelu językowego pochodzą od \"Brave New World\" – Nowy Wspaniały Świat."
+    }
+  },
+  "rawResponse": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+}
