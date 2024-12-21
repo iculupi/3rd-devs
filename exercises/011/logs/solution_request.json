@@ -1,0 +1,20 @@
+{
+  "timestamp": "2024-12-21T16:41:28.548Z",
+  "type": "request",
+  "data": {
+    "task": "dokumenty",
+    "apikey": "ff713a68-2511-4319-adc4-cb76d2cd10bf",
+    "answer": {
+      "2024-11-12_report-00-sektor_C4.txt": "sektor C4, nauczyciel, język angielski, szkoła podstawowa, Grudziądz, metod, życie, społeczność, automatyzacja, rząd robotów, działalność, władza, spotkanie, edukacja, algorytm, sztuczna inteligencja, aresztowanie, proces, miejsce pobytu, miasto, strefa, patrol automatyczny, programowanie, Java, zabezpieczenie, system, opozycja, godzina, jednostka organieczna, skrzydło, fabryka, Aleksander Ragowski, skan biometryczny, baza danych, dział kontroli, patrol",
+      "2024-11-12_report-01-sektor_A1.txt": "alarm, ruch, analiza, obecność, zwierzyna, obszar, spokój, trasę, patrol, sektor A1",
+      "2024-11-12_report-02-sektor_A3.txt": "sektor A3, godzina, obszar, patrol, aktywność, monitoring, peryferia, obiekt, kontynuacja, zadanie",
+      "2024-11-12_report-03-sektor_A3.txt": "sektor A3, Godzina, Przebieg, poziom, Czujniki, wytyczne, życie, Stan, patrol",
+      "2024-11-12_report-04-sektor_B2.txt": "sektor B2, część, teren, anomalii, odchylenie, norma, sektor, kanał, komunikacja, punkt",
+      "2024-11-12_report-05-sektor_C1.txt": "sektor C1, Godzina, aktywność, sensor, detektor, ruch, sygnał, patrol, monitorowanie",
+      "2024-11-12_report-06-sektor_C2.txt": "sektor C2, Godzina, Sektor, stan, obszar, Skanery, temperatury, ruch, brak, wykrycie, Jednostka, patrol",
+      "2024-11-12_report-07-sektor_C4.txt": "Barbara Zawadzka, bojownik, ruch oporu, władza, specjalista, frontend, kariera, branża IT, automatyzacja, firma, maszyna, algorytm, sztuczna inteligencja, trauma, JavaScript, Python, technologia, szkolenie, AI Devs, technika, baza wektorowa, zasób, talent, kodowanie, zabezpieczenie, system rządowy, kontrola, robot, nauczyciel angielskiego, działacz, Kraków, ulica Bracka, pokój, spotkanie, automatyzacja, Kraków, Aleksander Ragorski, relacja, więź, związek, zaangażowanie, krav maga, kurs, technika samoobrony, atak, broń palna, koktajl Mołotowa, akcja sabotażowa, pizza z ananasem, miejsce pobytu, projekt, komunikacja, jednostka, nadajnik, czujnik dźwięku, ultradźwięk, analiza, odcisk palca, dział śledczy, patrol, sektor C4",
+      "2024-11-12_report-08-sektor_A1.txt": "sektor A1, Godzina, Monitoring, obszar, brak, ruch, cisza, czujnik, aktywność, obserwacja, teren, wytyczna",
+      "2024-11-12_report-09-sektor_C2.txt": "sektor C2, Godzina, Patrol, peryferia, czujniki, sygnały, obszar, anomalie, cykl, sektor"
+    }
+  }
+}
