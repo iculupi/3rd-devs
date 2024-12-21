@@ -1,18 +1,21 @@
-import { config } from 'dotenv';
-config();
+import { KeyChecker } from "../../../utils/helpers/validation/KeyValidator";
 
-// Check required API keys
-const requiredKeys = [
-    'OPENAI_API_KEY',
-    // Add other required keys
+// Sprawdź wymagane klucze API i konfigurację Neo4j
+const requiredEnvVars = [
+    'PERSONAL_API_KEY',
+    'NEO4J_URI',
+    'NEO4J_USER',
+    'NEO4J_PASSWORD'
 ];
 
-function checkApiKeys() {
-    const missingKeys = requiredKeys.filter(key => !process.env[key]);
-    if (missingKeys.length > 0) {
-        throw new Error(`Missing required API keys: ${missingKeys.join(', ')}`);
+for (const envVar of requiredEnvVars) {
+    if (!process.env[envVar]) {
+        console.error(`Missing required environment variable: ${envVar}`);
+        process.exit(1);
     }
-    console.log('All required API keys are present');
 }
 
-checkApiKeys();
+// Sprawdź klucze API
+if (!KeyChecker.validateRequiredKeys()) {
+    process.exit(1);
+}
