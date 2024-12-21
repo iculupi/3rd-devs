@@ -1,0 +1,34 @@
+{
+  "toBeSearched": {
+    "places": [
+      "FROMBORK"
+    ],
+    "people": []
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG",
+      "FROMBORK"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW",
+    "ELBLAG"
+  ]
+}

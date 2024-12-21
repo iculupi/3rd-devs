@@ -1,0 +1,37 @@
+{
+  "toBeSearched": {
+    "places": [],
+    "people": [
+      "GLITCH"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG",
+      "FROMBORK",
+      "KONIN"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL",
+      "ARTUR",
+      "GLITCH"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW",
+    "ELBLAG"
+  ]
+}

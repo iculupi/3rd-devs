@@ -1,0 +1,68 @@
+{
+  "searchResult": {
+    "people": {
+      "Andrzej": [
+        "WARSZAWA",
+        "GRUDZIADZ"
+      ],
+      "Barbara": [
+        "**RESTRICTED_DATA**"
+      ],
+      "Aleksander": [
+        "KRAKOW",
+        "LUBLIN",
+        "WARSZAWA"
+      ],
+      "Rafał": [
+        "GRUDZIADZ",
+        "WARSZAWA",
+        "LUBLIN"
+      ]
+    },
+    "places": {
+      "Kraków": [
+        "ALEKSANDER",
+        "BARBARA",
+        "ADAM"
+      ],
+      "Warszawa": [
+        "RAFAŁ",
+        "ALEKSANDER",
+        "ANDRZEJ"
+      ]
+    }
+  },
+  "toBeSearched": {
+    "places": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN"
+    ],
+    "people": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków"
+  ]
+}

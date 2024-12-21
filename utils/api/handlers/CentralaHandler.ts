@@ -45,7 +45,7 @@ export class CentralaHandler {
 
         // Send request
         const response = await fetch(
-            `${API_ENDPOINTS.REPORT}/${process.env.PERSONAL_API_KEY}`,
+            `${API_ENDPOINTS.REPORT}`,
             {
                 method: 'POST',
                 headers: {
@@ -77,5 +77,16 @@ export class CentralaHandler {
         );
 
         return result;
+    }
+
+    // Nowa metoda do raportowania wyników
+    async report(taskId: string, answer: any): Promise<any> {
+        const requestData = {
+            task: taskId,
+            apikey: process.env.PERSONAL_API_KEY,
+            answer
+        };
+
+        return this.sendAndLog(requestData);
     }
 } 

@@ -1,0 +1,34 @@
+{
+  "toBeSearched": {
+    "places": [
+      "ELBLAG"
+    ],
+    "people": [
+      "GABRIEL"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW"
+  ]
+}

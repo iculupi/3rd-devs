@@ -1,0 +1,19 @@
+{
+  "toBeSearched": {
+    "people": [
+      "Barbara",
+      "Aleksander",
+      "Andrzej",
+      "Rafał"
+    ],
+    "places": [
+      "Kraków",
+      "Warszawa"
+    ]
+  },
+  "alreadySearched": {
+    "people": [],
+    "places": []
+  },
+  "barbaraLocations": []
+}

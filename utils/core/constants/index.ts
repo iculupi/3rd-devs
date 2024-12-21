@@ -1,7 +1,7 @@
 export const API_ENDPOINTS = {
     CENTRALA: 'https://centrala.ag3nts.org',
     REPORT: 'https://centrala.ag3nts.org/report'
-};
+} as const;
 
 export const CHUNK_SIZE = 10;
 

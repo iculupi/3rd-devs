@@ -1,0 +1,56 @@
+{
+  "searchResult": {
+    "places": {
+      "CIECHOCINEK": [
+        "ADAM",
+        "GABRIEL"
+      ]
+    },
+    "people": {
+      "RAFAL": [
+        "GRUDZIADZ",
+        "WARSZAWA",
+        "LUBLIN"
+      ],
+      "AZAZEL": [
+        "GRUDZIADZ",
+        "WARSZAWA",
+        "KRAKOW",
+        "LUBLIN",
+        "ELBLAG"
+      ]
+    }
+  },
+  "toBeSearched": {
+    "places": [
+      "ELBLAG"
+    ],
+    "people": [
+      "GABRIEL"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW"
+  ]
+}

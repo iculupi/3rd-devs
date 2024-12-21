@@ -1,0 +1,77 @@
+{
+  "searchResult": {
+    "places": {
+      "WARSZAWA": [
+        "RAFAŁ",
+        "ALEKSANDER",
+        "ANDRZEJ"
+      ],
+      "KRAKOW": [
+        "ALEKSANDER",
+        "BARBARA",
+        "ADAM"
+      ],
+      "GRUDZIADZ": [
+        "RAFAL",
+        "AZAZEL"
+      ],
+      "LUBLIN": [
+        "**RESTRICTED_DATA**"
+      ]
+    },
+    "people": {
+      "BARBARA": [
+        "**RESTRICTED_DATA**"
+      ],
+      "RAFAŁ": [
+        "GRUDZIADZ",
+        "WARSZAWA",
+        "LUBLIN"
+      ],
+      "ADAM": [
+        "KRAKOW",
+        "CIECHOCINEK"
+      ],
+      "ALEKSANDER": [
+        "KRAKOW",
+        "LUBLIN",
+        "WARSZAWA"
+      ],
+      "ANDRZEJ": [
+        "WARSZAWA",
+        "GRUDZIADZ"
+      ]
+    }
+  },
+  "toBeSearched": {
+    "places": [
+      "CIECHOCINEK"
+    ],
+    "people": [
+      "RAFAL",
+      "AZAZEL"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW"
+  ]
+}

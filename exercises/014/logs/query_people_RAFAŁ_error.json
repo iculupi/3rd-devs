@@ -1,0 +1,43 @@
+{
+  "message": "Request failed with status code 400",
+  "name": "AxiosError",
+  "stack": "Error\n    at settle (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\node_modules\\axios\\lib\\core\\settle.js:19:16)\n    at handleStreamEnd (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\node_modules\\axios\\lib\\adapters\\http.js:599:11)\n    at emit (node:events:56:48)\n    at endReadableNT (node:stream:2207:27)\n    at processTicksAndRejections (native:7:39)\n    at <anonymous> (C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\node_modules\\axios\\lib\\core\\Axios.js:45:41)\n    at processTicksAndRejections (native:7:39)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http",
+      "fetch"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache",
+      "Connection": "keep-alive",
+      "Accept-Encoding": "gzip, deflate, br",
+      "User-Agent": "axios/1.7.7",
+      "Content-Length": "66"
+    },
+    "method": "post",
+    "url": "https://centrala.ag3nts.org/people",
+    "data": "{\"apikey\":\"ff713a68-2511-4319-adc4-cb76d2cd10bf\",\"query\":\"RAFAŁ\"}"
+  },
+  "code": "ERR_BAD_REQUEST",
+  "status": 400
+}

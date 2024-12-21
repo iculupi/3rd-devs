@@ -1,0 +1,33 @@
+{
+  "toBeSearched": {
+    "places": [
+      "CIECHOCINEK"
+    ],
+    "people": [
+      "RAFAL",
+      "AZAZEL"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW"
+  ]
+}

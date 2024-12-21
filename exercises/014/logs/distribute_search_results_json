@@ -1,0 +1,71 @@
+{
+  "input": {
+    "alreadySearched": {
+      "people": [
+        "WARSZAWA",
+        "GRUDZIADZ",
+        "KRAKOW",
+        "LUBLIN",
+        "CIECHOCINEK",
+        "ELBLAG",
+        "FROMBORK",
+        "KONIN",
+        "https://centrala.ag3nts.org/dane/na_smartfona.png"
+      ],
+      "places": [
+        "ALEKSANDER",
+        "BARBARA",
+        "ADAM",
+        "RAFAŁ",
+        "ANDRZEJ",
+        "RAFAL",
+        "AZAZEL",
+        "GABRIEL",
+        "ARTUR",
+        "GLITCH"
+      ]
+    },
+    "searchResult": {
+      "places": {
+        "https://centrala.ag3nts.org/dane/na_smartfona.png": []
+      },
+      "people": {}
+    }
+  },
+  "output": {
+    "result": {
+      "places": [],
+      "people": []
+    },
+    "alreadySearched": {
+      "people": [
+        "WARSZAWA",
+        "GRUDZIADZ",
+        "KRAKOW",
+        "LUBLIN",
+        "CIECHOCINEK",
+        "ELBLAG",
+        "FROMBORK",
+        "KONIN",
+        "https://centrala.ag3nts.org/dane/na_smartfona.png"
+      ],
+      "places": [
+        "ALEKSANDER",
+        "BARBARA",
+        "ADAM",
+        "RAFAŁ",
+        "ANDRZEJ",
+        "RAFAL",
+        "AZAZEL",
+        "GABRIEL",
+        "ARTUR",
+        "GLITCH"
+      ]
+    },
+    "barbaraLocations": [
+      "Kraków",
+      "KRAKOW",
+      "ELBLAG"
+    ]
+  }
+}

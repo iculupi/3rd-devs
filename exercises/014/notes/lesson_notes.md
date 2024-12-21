@@ -1,15 +1,29 @@
-# Lesson Notes - Exercise 014
+# Lekcja 014 - Wyszukiwanie Barbary
 
-## Key Concepts
-- [Concept 1]
-- [Concept 2]
-- [Concept 3]
+## Kluczowe Koncepcje
+1. Rekurencyjne przeszukiwanie grafów powiązań
+2. Obsługa zastrzeżonych danych
+3. Logowanie procesu wyszukiwania
+4. Raportowanie wyników
 
-## Implementation Details
-- [Detail 1]
-- [Detail 2]
-- [Detail 3]
+## Implementacja
+1. Przygotowanie danych:
+   - Analiza tekstu przez GPT-4
+   - Ekstrakcja osób i miejsc
+   - Usuwanie polskich znaków
 
-## Resources & References
-- [Resource 1]
-- [Resource 2]
+2. Przeszukiwanie:
+   - Iteracyjne odpytywanie API
+   - Śledzenie odwiedzonych węzłów
+   - Zbieranie lokalizacji Barbary
+
+3. Raportowanie:
+   - Logowanie każdego kroku
+   - Raportowanie do centrali
+   - Obsługa błędów
+
+## Wnioski
+1. Ważne jest dokładne logowanie procesu
+2. Należy obsługiwać różne formaty danych
+3. Rekurencyjne przeszukiwanie wymaga kontroli cykli
+4. Warto zachować wszystkie znalezione lokalizacje

@@ -1,0 +1,6 @@
+{
+  "code": "ENOENT",
+  "path": "C:\\Users\\KAKOFONIA\\Documents\\GitHub\\3rd-devs\\exercises\\014\\logs\\query_places_HTTPS:\\CENTRALA.AG3NTS.ORG\\DANE\\NA_SMARTFONA.PNG_request.json",
+  "syscall": "open",
+  "errno": -2
+}

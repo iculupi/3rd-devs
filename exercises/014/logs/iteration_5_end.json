@@ -1,0 +1,44 @@
+{
+  "searchResult": {
+    "places": {},
+    "people": {
+      "ARTUR": [
+        "KONIN"
+      ]
+    }
+  },
+  "toBeSearched": {
+    "places": [
+      "KONIN"
+    ],
+    "people": []
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG",
+      "FROMBORK",
+      "KONIN"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL",
+      "ARTUR"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW",
+    "ELBLAG"
+  ]
+}

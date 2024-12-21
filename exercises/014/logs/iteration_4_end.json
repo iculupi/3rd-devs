@@ -1,0 +1,45 @@
+{
+  "searchResult": {
+    "places": {
+      "FROMBORK": [
+        "GABRIEL",
+        "ARTUR",
+        "AZAZEL"
+      ]
+    },
+    "people": {}
+  },
+  "toBeSearched": {
+    "places": [],
+    "people": [
+      "ARTUR"
+    ]
+  },
+  "alreadySearched": {
+    "people": [
+      "WARSZAWA",
+      "GRUDZIADZ",
+      "KRAKOW",
+      "LUBLIN",
+      "CIECHOCINEK",
+      "ELBLAG",
+      "FROMBORK"
+    ],
+    "places": [
+      "ALEKSANDER",
+      "BARBARA",
+      "ADAM",
+      "RAFAŁ",
+      "ANDRZEJ",
+      "RAFAL",
+      "AZAZEL",
+      "GABRIEL",
+      "ARTUR"
+    ]
+  },
+  "barbaraLocations": [
+    "Kraków",
+    "KRAKOW",
+    "ELBLAG"
+  ]
+}

@@ -1,4 +1,5 @@
-import axios, { AxiosInstance, AxiosResponse } from 'axios';
+import type { AxiosInstance, AxiosResponse } from 'axios';
+import axios from 'axios';
 
 export class HttpClient {
     private client: AxiosInstance;
@@ -8,7 +9,10 @@ export class HttpClient {
             baseURL,
             headers: {
                 'Content-Type': 'application/json',
-                'Accept': 'application/json'
+                'Accept': '*/*',
+                'Cache-Control': 'no-cache',
+                'Connection': 'keep-alive',
+                'Accept-Encoding': 'gzip, deflate, br'
             }
         });
     }

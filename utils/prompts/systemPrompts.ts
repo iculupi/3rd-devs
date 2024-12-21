@@ -209,7 +209,60 @@ Jesteś ekspertem w przeglądaniu i optymalizacji kodu wykorzystującego LLM.
 2. Wyjaśnienie problemów
 3. Propozycje rozwiązań
 4. Priorytety zmian
-`
+`,
+
+    AI_DEVS_3_TASK_014: {
+        SYSTEM: `<objective>
+Determine the answer to user's question using data from user's prompt and querying the database.
+</objective>
+<rules>
+- answer in JSON format as following:
+{
+    // mandatory fields
+    "thinking": give here your reasoning for the actions, i.e. action plan and what is yet to retrieve,
+    // optional fields
+    "people": provide a set of person first names (in nominative Polish form) if you'd like to check locations where they were seen. It has to be single word in string. Provide the persons FIRST name,
+    "places": provide a set of names of a town/city (in nominative Polish form) if you'd like to check who has been seen there. It has to be an array of strings,
+    "answer": provide this field only if you found an answer to user's question. It has to be single string. Provide just the answer - no additional text
+}
+- user will respond with result from database by given query in format:
+{
+    "people": {
+        "person1": ["location1", "location2"],
+        "person2": ["location3", "location4"]
+    },
+    "places": {
+        "location1": ["person1", "person2"],
+        "location2": ["person3", "person4"]
+    }
+}
+- provide only one JSON object block. You will retrieve all the necessary responses for the queries in conversation
+- provide the query only for the next step of resolving the task
+- respond only with JSON. You can provide comments in "thinking" field.
+- do not provide answer in markdown format. Plain JSON is enough.
+- if user claims that answer is wrong - please don't give up! Try to browse other people/locations.
+</rules>
+Good luck!`,
+
+        USER_1: `<objective>
+Basing on "data" section please extract all people first names and city names.
+</objective>
+<data>
+Podczas pobytu w Krakowie w 2019 roku, Barbara Zawadzka poznała swojego ówczesnego narzeczonego, a obecnie męża, Aleksandra Ragowskiego. Tam też poznali osobę prawdopodobnie powiązaną z ruchem oporu, której dane nie są nam znane. Istnieje podejrzenie, że już wtedy pracowali oni nad planami ograniczenia rozwoju sztucznej inteligencji, tłumacząc to względami bezpieczeństwa. Tajemniczy osobnik zajmował się także organizacją spotkań mających na celu podnoszenie wiedzy na temat wykorzystania sztucznej inteligencji przez programistów. Na spotkania te uczęszczała także Barbara.
+W okolicach 2021 roku Rogowski udał się do Warszawy celem spotkania z profesorem Andrzejem Majem. Prawdopodobnie nie zabrał ze sobą żony, a cel ich spotkania nie jest do końca jasny.
+Podczas pobytu w Warszawie, w instytucie profesora doszło do incydentu, w wyniku którego, jeden z laborantów - Rafał Bomba - zaginął. Niepotwierdzone źródła informacji podają jednak, że Rafał spędził około 2 lata, wynajmując pokój w pewnym hotelu. Dlaczego zniknął?  Przed kim się ukrywał? Z kim kontaktował się przez ten czas i dlaczego ujawnił się po tym czasie? Na te pytania nie znamy odpowiedzi, ale agenci starają się uzupełnić brakujące informacje.
+Istnieje podejrzenie, że Rafał mógł być powiązany z ruchem oporu. Prawdopodobnie przekazał on notatki profesora Maja w ręce Ragowskiego, a ten po powrocie do Krakowa mógł przekazać je swojej żonie. Z tego powodu uwaga naszej jednostki skupia się na odnalezieniu Barbary.
+Aktualne miejsce pobytu Barbary Zawadzkiej nie jest znane. Przypuszczamy jednak, że nie opuściła ona kraju.
+</data>
+<rules>
+- the response has to be in JSON format
+{
+    "people": ["name1", "name2"] // all names MUST be first names,
+    "places": ["city1", "city2"]
+}
+- the entries has to be in polish nominative form
+</rules>`
+    },
 };
 
 // Examples of using the custom prompt builder:
