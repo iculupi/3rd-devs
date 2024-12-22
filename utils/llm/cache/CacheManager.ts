@@ -1,6 +1,9 @@
+import { FileManager } from '../../helpers/files/FileManager';
+
 interface CacheConfig {
-  ttl: number; // Time to live in milliseconds
+  ttl: number;
   maxEntries: number;
+  persistPath?: string;
 }
 
 interface CacheEntry {
@@ -17,9 +20,33 @@ export class CacheManager {
   constructor(config?: Partial<CacheConfig>) {
     this.cache = new Map();
     this.config = {
-      ttl: config?.ttl || 1000 * 60 * 60, // 1 godzina
-      maxEntries: config?.maxEntries || 1000
+      ttl: config?.ttl || 1000 * 60 * 60,
+      maxEntries: config?.maxEntries || 1000,
+      persistPath: config?.persistPath
     };
+    this.loadCache();
+  }
+
+  private async loadCache() {
+    if (this.config.persistPath) {
+      try {
+        const data = await FileManager.readJson<Record<string, CacheEntry>>(this.config.persistPath);
+        this.cache = new Map(Object.entries(data));
+      } catch (error) {
+        console.warn('Failed to load cache:', error);
+      }
+    }
+  }
+
+  private async saveCache() {
+    if (this.config.persistPath) {
+      try {
+        const data = Object.fromEntries(this.cache.entries());
+        await FileManager.writeJson(this.config.persistPath, data);
+      } catch (error) {
+        console.error('Failed to save cache:', error);
+      }
+    }
   }
 
   // Generuj klucz cache na podstawie promptu i parametrów

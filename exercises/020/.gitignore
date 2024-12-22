@@ -1,0 +1,9 @@
+pages/
+pages_resized/
+*.pdf
+*.png
+*.txt
+combined.txt
+questions.json
+answers/
+cache/
