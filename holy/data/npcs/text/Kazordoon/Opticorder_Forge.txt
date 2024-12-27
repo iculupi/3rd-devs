@@ -1,0 +1,8 @@
+Player: hi
+Opticorder Forge: State the meaning of walls VB and VC of testimony.
+Player: (any)
+Opticorder Forge: Invalid. (idle)
+Player: isolated cradle
+Opticorder Forge: Accepted. Forge activated. (idle)
+Player: hi
+Opticorder Forge: Forge active. (idle)
