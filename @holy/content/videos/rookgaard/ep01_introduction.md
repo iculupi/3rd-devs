@@ -10,52 +10,63 @@
 
 ## Video Structure & Full Script
 
-### Opening Scene (30 seconds)
-*[Start with full minimap view]*
+### Opening - Holy Luca (45 seconds)
+*[Holy Luca at Temple entrance]*
 
-"Welcome, fellow adventurers. I am Pardieu, and today we begin our journey into the mysteries of Rookgaard. But before we explore its present, we must understand its past..."
+"Greetings brave adventurers. It is I, Holy Luca, Paladin of Thyria. Today, I do not stand before you as your guide, but I bring forth a trusted companion. One who shall carry the torch and unravel the secrets of Rookgaard, the isle where all journeys begin. Allow me to introduce you to Pardieu, who will now take you through the forgotten tales of this ancient land. Pardieu, the stage is yours."
 
-*[Highlight four ancient locations on minimap]*
+### Pardieu's Introduction (60 seconds)
+*[Character transition to Pardieu]*
 
-"This island wasn't always the training ground we know today. Ancient lizard architecture in four distinct locations tells us of a civilization that preceded humanity here. The Temple of All Cheese-Eating, now known simply as the Goblin Temple, stands as testament to their sophisticated culture."
+"Thank you, Luca, for the trust you've bestowed upon me. I am Pardieu, an adventurer named after a hero from an ancient tale, and today I begin the telling of the island's mysteries. Rookgaard, a place where all newcomers find their first footing, is more than just a training ground. It is a forgotten land steeped in history."
 
-### Historical Overview (60 seconds)
-*[Walking from Temple towards Academy]*
+### Central Village Overview (60 seconds)
+*[Walking through central locations]*
 
-"The human settlement of Rookgaard began with conflict. Evidence of mass graves suggests a violent conquest, with Carlin forces led by Geraldo Doomsword claiming this strategic location. Some whisper that not all the original inhabitants were eliminated - that some survive, hidden, perhaps even walking among us in different forms..."
+"In the center stands the temple, our beginning and sanctuary, where new souls awaken. To the north, old Seymour's Academy, where knowledge is passed down. Merchants line the streets, offering their wares, operating in the buildings they added upon their arrival on the island.
 
-*[Reaching Academy]*
+To the west of the village lies an exclusive area for premium players, reflecting the elite's division through the concept of taxes in the game lore. To the east, an ancient cemetery which supposedly has not been used for a long time, where we see some terrifying red coat of arms on a black background - just one of many mysteries to be explored."
 
-"The Academy wasn't the first structure here. That honor belongs to Hyacinth's Tower, followed by the Temple's foundation. These early settlers, including possibly the ancestors of Obi and Dixi, established what would become a crucial outpost of the Tibian kingdom."
+### Ancient Architecture (90 seconds)
+*[Opening minimap to show the five key locations]*
 
-### Village Tour (60 seconds)
-*[Walking through main street]*
+"But before we delve into the present, we must understand the past. Five ancient sites on this island bear witness to a civilization that preceded humanity - the mysterious lizard people. These locations, marked by their distinctive architecture, tell us of a sophisticated culture that once ruled here.
 
-"Today's Rookgaard arrived in waves. Each ship bringing new faces, new stories, new secrets. Look around you - every building, every citizen represents a different era of settlement. Dallheim and Zerbrus guard the bridges, but what are they really protecting? Or perhaps... containing?"
+*[Walking to each location as mentioned]*
 
-*[Showing guard positions]*
+First, there's the Temple of All Cheese-Eating, an ancient structure now known for its goblin inhabitants. Second, the Rookgaard Temple itself, where traces of lizard architecture blend with human modifications. Third, the main part of the Rookgaard Academy, whose foundations speak of older origins. Fourth, the old cemetery east of the village, where ancient symbols still linger. And fifth, the mountain tower where Hyacinth now resides - an ancient structure whose original purpose remains unknown.
 
-"The village appears divided - Premium and non-Premium areas separated by these bridges. But the real divisions run deeper, following lines of loyalty, secrets, and power that we'll explore in future episodes."
+In each of these locations, you can see incredible similarities to the well-known lizard architecture of distant Darama and the huge jungle of Tiquanda. Among the decorations we can distinguish: a small salamander, a three-toed lizard foot, a medusa head as wall decoration and ornament above the entrance.
 
-### Power Centers (45 seconds)
-*[Walking past key locations]*
+Were lizards the first colonizers of this small island? Could the signs that we have ignored for so many years show us the true history of this place?"
 
-"The power in Rookgaard flows through three channels: The Academy, where Seymour guards both knowledge and secrets in his basement; the Temple, where Cipfried maintains order through faith; and the merchants, whose networks of trade carry more than just goods."
+### Research Approach (60 seconds)
+*[Walking through various areas]*
 
-### Current Situation (45 seconds)
-*[Near Norma's Bar]*
+"In addition to architecture, we will also try to look at banners and family coats of arms, interior design, and places that have made bold adventurers dizzy for years. We will also take an in-depth look at botany, geology, and the pantheon of gods who watch over us in this beautiful world, as each of them is said to have made the world we know look the way it does."
 
-"Recent events have disturbed the delicate balance. The arrival of Asralius and Vascalir, supposedly here to investigate orc disturbances, suggests higher powers have taken interest in our little island. And then there's Amber, whose shipwreck might not be as accidental as it seems..."
+### Settlement Waves (45 seconds)
+*[Near docks area]*
 
-### Future Episodes Preview (30 seconds)
-*[Walking back to Temple]*
+"Rookgaard is home to a diverse cast of characters, each with their own story. There are traders, soldiers defending the village, and priests guiding the people in their faith. Some arrived on the island seeking fortune, while others have more mysterious origins. They came in waves, and each wave wove a new thread into the magic web of Rookgaard's history."
 
-"In our coming episodes, we'll examine each citizen of Rookgaard closely. From Willie's bitter rivalry with his cousin Billy, to the mysterious relationship between Tom and his mother Zirella. Every NPC has their own story, their own secrets, their own role in the greater game."
+### Knightmare's Legacy (60 seconds)
+*[At a significant location]*
 
-### Closing (30 seconds)
-*[At Temple entrance]*
+"Before we continue, it is important to acknowledge the role of Knightmare, one of the architects behind the world of Tibia... His clues have guided many adventurers to look beyond the surface.
 
-"Join me next time as we begin unraveling these mysteries, starting with the curious case of Obi and his granddaughter Dixi - a family whose story might hold the key to understanding Rookgaard's true purpose. Until then, watch carefully, trust cautiously, and remember - in Rookgaard, nothing is quite what it seems."
+Thanks to his riddle which we received in the interview and with the help of Holy Luca and the wise druid Stradvarius who solved it.
+
+Thanks to its solution, which is the fairy tale by Hans Christian Andersen 'The Dream of Little Tuk'. A fairy tale about a boy who has to learn the history and geography of his own country in a lesson the next day.
+
+He reminds us to learn the history of every place we visit, to discover its hidden layers, and to piece together the puzzles that have long remained unsolved.
+
+You can see more details about this in the attached book The true crime story about Dreadeye, Knightmare and Hannibal."
+
+### Closing - Holy Luca (30 seconds)
+*[Return to Holy Luca]*
+
+"My deepest thanks to Pardieu for his guidance. This will not be our last meeting, dear friend, for we have many mysteries to explore together. But now, our path branches off, and I shall continue where I can tread. Until we meet again brave adventurers!"
 
 ## Production Requirements
 
@@ -98,7 +109,7 @@
 #Tibia #TibiaMMO #Rookgaard #Gaming #MMORPG #TibiaLore #RookgaardSecrets #2DMMO #RetroMMO #TibiaStory 
 
 ### Additional Notes
-- Ensure continuous narration during walking sequences
+- Ensure smooth character transitions between Holy Luca and Pardieu
 - Use minimap strategically to show historical locations
-- Highlight architectural details that support historical claims
-- Show NPC positions but save detailed interactions for future episodes 
+- Highlight architectural details mentioned in script
+- Save detailed NPC interactions for future episodes 

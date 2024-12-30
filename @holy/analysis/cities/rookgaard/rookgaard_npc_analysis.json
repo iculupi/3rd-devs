@@ -1,0 +1,1150 @@
+{
+  "": {
+    "idle_messages": [
+      "Zerbrus: Want to know what monsters are good for you at your level? Just ask me!",
+      "Zerbrus: Are you injured or poisoned? I can help you.",
+      "Zerbrus: The premium side of Rookgaard lies beyond.",
+      "Zerbrus: No monster shall go past me.",
+      "Zerbrus: For Rookgaard! For Tibia!"
+    ],
+    "responses": {
+      "(idle)": {
+        "text": "Zerbrus: Want to know what monsters are good for you at your level? Just ask me!\nZerbrus: Are you injured or poisoned? I can help you.\nZerbrus: The premium side of Rookgaard lies beyond.\nZerbrus: No monster shall go past me.\nZerbrus: For Rookgaard! For Tibia!",
+        "tags": [
+          "history",
+          "combat",
+          "premium",
+          "friendly"
+        ]
+      },
+      "hi / hello": {
+        "text": "Zerbrus: <nods> At your service,",
+        "tags": []
+      },
+      "academy": {
+        "text": "Zerbrus: It's north of the temple.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "al dee": {
+        "text": "Zerbrus: There's something about this guy I don't like.",
+        "tags": []
+      },
+      "amber": {
+        "text": "Zerbrus: She's very attractive. Too bad my duty leaves me no time to date her.",
+        "tags": [
+          "authority",
+          "complaint"
+        ]
+      },
+      "bank": {
+        "text": "Zerbrus: Before you fight monsters, deposit your money there. If you die, you won't lose it if it's save in the bank.",
+        "tags": [
+          "history",
+          "trade",
+          "combat"
+        ]
+      },
+      "banor": {
+        "text": "Zerbrus: The heavenly warrior! Read books to learn about him.",
+        "tags": [
+          "knowledge"
+        ]
+      },
+      "book": {
+        "text": "Zerbrus: There are many books in the academy. Theory can be just as important as practice.",
+        "tags": [
+          "location"
+        ]
+      },
+      "bear": {
+        "text": "Zerbrus: There is a bear cave close to this bridge. Be careful, though, they hit hard!",
+        "tags": [
+          "dungeon",
+          "location"
+        ]
+      },
+      "billy": {
+        "text": "Zerbrus: He's a farmer. A little more friendly than his cousin Willie, he also buys and sells food.",
+        "tags": []
+      },
+      "bug": {
+        "text": "Zerbrus: They are a little tougher than they look like, but they're still good beginner monsters.",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "cipfried": {
+        "text": "Zerbrus: He guards the temple and can heal you if you are badly injured or poisoned, just like me.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "citizen": {
+        "text": "Zerbrus: I'm not a gossiper, but if you want to know something about a certain Rookgaardian, ask.",
+        "tags": []
+      },
+      "cockroach": {
+        "text": "Zerbrus: Nasty but easy to squish.",
+        "tags": []
+      },
+      "dallheim": {
+        "text": "Zerbrus: He does a fine job, protecting the north bridge. He's been on duty longer than me and knows the north side of Rookgaard well.",
+        "tags": [
+          "location",
+          "authority"
+        ]
+      },
+      "dixi": {
+        "text": "Zerbrus: She's Obi's granddaughter and deals with armors and shields. Her shop is south west of town, close to the temple.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "dungeon": {
+        "text": "Zerbrus: I can mark you some dungeons on your map if you ask me about monsters suited for your level.",
+        "tags": []
+      },
+      "god": {
+        "text": "Zerbrus: I'm a follower of Banor.",
+        "tags": []
+      },
+      "heal": {
+        "text": "Zerbrus: You aren't looking really bad. Eat some food to regain strength.",
+        "tags": [
+          "complaint"
+        ]
+      },
+      "help": {
+        "text": "Zerbrus: I have to stay here, sorry. But I can heal you if you are wounded. I have also valuable information about monsters.",
+        "tags": [
+          "knowledge"
+        ]
+      },
+      "how are you": {
+        "text": "Zerbrus: Fine.",
+        "tags": []
+      },
+      "hyacinth": {
+        "text": "Zerbrus: One of these reclusive druids.",
+        "tags": []
+      },
+      "info": {
+        "text": "Zerbrus: I'm an expert concerning the wildlife and monsters on this island.",
+        "tags": []
+      },
+      "job / protect": {
+        "text": "Zerbrus: I'm the guard of this bridge. I defend Rookgaard against the beasts of the wilderness and the dungeons, and even of the stinking sewers.",
+        "tags": [
+          "combat",
+          "location",
+          "authority"
+        ]
+      },
+      "king": {
+        "text": "Zerbrus: HAIL TO THE KING!",
+        "tags": []
+      },
+      "lee'delle": {
+        "text": "Zerbrus: Her shop is just north of the bridge. She really has good offers.",
+        "tags": [
+          "friendly",
+          "location"
+        ]
+      },
+      "lily": {
+        "text": "Zerbrus: Gentle girl, but a little to esoteric for my taste. However, her potions might come in handy.",
+        "tags": []
+      },
+      "loui": {
+        "text": "Zerbrus: Such a chicken-hearted person.",
+        "tags": []
+      },
+      "magic": {
+        "text": "Zerbrus: You will learn about magic soon enough.",
+        "tags": [
+          "knowledge",
+          "magic"
+        ]
+      },
+      "minotaur": {
+        "text": "Zerbrus: Minotaurs are very strong. You will need a group of people or at least level 6 and good equipment to be able to kill them.",
+        "tags": [
+          "friendly",
+          "equipment"
+        ]
+      },
+      "monster": {
+        "text": "Zerbrus: It looks like you have mastered the drill.",
+        "tags": []
+      },
+      "name": {
+        "text": "Zerbrus: Zerbrus, at your service.",
+        "tags": []
+      },
+      "norma": {
+        "text": "Zerbrus: I don't approve of her opening a bar. Those drunken adventurers stumbling over the bridge at nighttime are not especially helpful in improving the situation.",
+        "tags": [
+          "location"
+        ]
+      },
+      "obi": {
+        "text": "Zerbrus: He sells weapons. His shop is south west of town, close to the temple.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "oracle": {
+        "text": "Zerbrus: You can find the oracle on the top floor of the academy, just above Seymour. Go there when you are level 8.",
+        "tags": [
+          "location"
+        ]
+      },
+      "orc": {
+        "text": "Zerbrus: The orcs have a hideout under the troll cave, just descend deep. Still, be very careful!",
+        "tags": [
+          "dungeon",
+          "monsters"
+        ]
+      },
+      "paulie": {
+        "text": "Zerbrus: The local bank clerk.",
+        "tags": []
+      },
+      "premium": {
+        "text": "Zerbrus:",
+        "tags": []
+      },
+      "rabbit": {
+        "text": "Zerbrus: They don't pose a threat. However, if you need food, they are good meat providers.",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "rat": {
+        "text": "Zerbrus: They're not that dangerous, but don't let yourself get cornered by many of them. They still can hurt.",
+        "tags": []
+      },
+      "rookgaard": {
+        "text": "Zerbrus: I'd give my life for protecting this village and its citizens.",
+        "tags": []
+      },
+      "rotworm": {
+        "text": "Zerbrus: Rotworms should not to be taken lightly. Luckily, there aren't any on this side. Talk to Dallheim if you need information about them.",
+        "tags": [
+          "knowledge"
+        ]
+      },
+      "santiago": {
+        "text": "Zerbrus: He dedicated his life to welcoming newcomers to this island.",
+        "tags": []
+      },
+      "seagull": {
+        "text": "Zerbrus: Just recently they've come to this island for nesting. They aren't dangerous.",
+        "tags": []
+      },
+      "sewer": {
+        "text": "Zerbrus: The sewers are crowded with rats. They make fine targets for young heroes.",
+        "tags": []
+      },
+      "seymour": {
+        "text": "Zerbrus: His job of teaching young heroes is important for the survival of all of us.",
+        "tags": []
+      },
+      "skeleton": {
+        "text": "Zerbrus: The skeletons on this island are usually fairly hidden. They are often found near graves and always underground. Beware of their evil life drain.",
+        "tags": [
+          "dungeon"
+        ]
+      },
+      "snake": {
+        "text": "Zerbrus: Snakes can poison you too, but their poison is usually not as dangerous as that of poison spiders. Just be careful and kill them fast.",
+        "tags": []
+      },
+      "spearman": {
+        "text": "Zerbrus: Spearmen are the toughest orcs on this island. Beware of their distance attacks!",
+        "tags": []
+      },
+      "spider": {
+        "text": "Zerbrus: There are two types of spiders on this island: normal spiders and poison spiders. As their name says, the latter ones can poison you which will cause a constant loss of your health. Beware of them!",
+        "tags": [
+          "gossip"
+        ]
+      },
+      "temple": {
+        "text": "Zerbrus: A place of protection. Nothing can harm you there.",
+        "tags": []
+      },
+      "thank": {
+        "text": "Zerbrus: It's my job.",
+        "tags": []
+      },
+      "tibia": {
+        "text": "Zerbrus: In the world of Tibia, many challenges await the brave adventurer.",
+        "tags": []
+      },
+      "time": {
+        "text": "Zerbrus: My duty is eternal. Time is of no importance.",
+        "tags": [
+          "authority"
+        ]
+      },
+      "tom": {
+        "text": "Zerbrus: He's the local tanner. You could try selling fresh corpses or leather to him.",
+        "tags": []
+      },
+      "trade / armor / shield / potion / weapon / sword / sabre / food / equipment / wares / sell / buy / offer / stuff": {
+        "text": "Zerbrus: Sorry, I don't trade. Ask the shop owners for a trade instead.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "troll": {
+        "text": "Zerbrus: Once you have upgraded your equipment a little - maybe leather stuff - and got a better weapon, you should be able to kill trolls.",
+        "tags": [
+          "equipment"
+        ]
+      },
+      "wasp": {
+        "text": "Zerbrus: Wasp hives exist only behind the north bridge, so ask Dallheim for information. I'm glad there are no wasps here. They always make me jump.",
+        "tags": [
+          "knowledge",
+          "location"
+        ]
+      },
+      "wilderness": {
+        "text": "Zerbrus: There are wolves, bears, snakes, deer, and spiders in the wilderness, past this bridge.",
+        "tags": [
+          "history",
+          "location"
+        ]
+      },
+      "willie": {
+        "text": "Zerbrus: He's quite rude. Also, he buys and sells food.",
+        "tags": []
+      },
+      "wolf / wolv": {
+        "text": "Zerbrus: You need a stronger weapon than the starter club to kill wolves. Maybe a sabre or a short sword would do.",
+        "tags": [
+          "equipment"
+        ]
+      },
+      "zerbrus": {
+        "text": "Zerbrus: At your service.",
+        "tags": []
+      },
+      "hint": {
+        "text": "Zerbrus: There is nothing more I can tell you. If you are still in need of some hints, I can repeat them for you.",
+        "tags": []
+      },
+      "bye / farewell": {
+        "text": "Zerbrus: Bye,",
+        "tags": []
+      }
+    },
+    "mentions": {
+      "Zerbrus": {
+        "contexts": [
+          "religion",
+          "magic",
+          "combat",
+          "premium",
+          "dungeon",
+          "equipment",
+          "suspicious",
+          "trade",
+          "complaint",
+          "authority",
+          "history",
+          "monsters",
+          "friendly",
+          "gossip",
+          "knowledge",
+          "location"
+        ],
+        "triggers": [
+          "lily",
+          "rabbit",
+          "academy",
+          "al dee",
+          "paulie",
+          "premium",
+          "santiago",
+          "bug",
+          "bear",
+          "loui",
+          "seagull",
+          "snake",
+          "sewer",
+          "tom",
+          "rotworm",
+          "lee'delle",
+          "wolf / wolv",
+          "hyacinth",
+          "temple",
+          "trade / armor / shield / potion / weapon / sword / sabre / food / equipment / wares / sell / buy / offer / stuff",
+          "(idle)",
+          "dixi",
+          "name",
+          "cockroach",
+          "zerbrus",
+          "banor",
+          "norma",
+          "obi",
+          "cipfried",
+          "job / protect",
+          "seymour",
+          "skeleton",
+          "wilderness",
+          "willie",
+          "spider",
+          "oracle",
+          "rookgaard",
+          "hi / hello",
+          "monster",
+          "troll",
+          "king",
+          "spearman",
+          "amber",
+          "how are you",
+          "tibia",
+          "bye / farewell",
+          "god",
+          "magic",
+          "billy",
+          "hint",
+          "info",
+          "orc",
+          "minotaur",
+          "rat",
+          "dallheim",
+          "wasp",
+          "time",
+          "citizen",
+          "help",
+          "dungeon",
+          "heal",
+          "bank",
+          "thank",
+          "book"
+        ]
+      },
+      "Willie": {
+        "contexts": [],
+        "triggers": [
+          "billy"
+        ]
+      },
+      "Obi": {
+        "contexts": [
+          "religion",
+          "location"
+        ],
+        "triggers": [
+          "dixi"
+        ]
+      },
+      "Seymour": {
+        "contexts": [
+          "location"
+        ],
+        "triggers": [
+          "oracle"
+        ]
+      },
+      "Dallheim": {
+        "contexts": [
+          "knowledge",
+          "location"
+        ],
+        "triggers": [
+          "wasp",
+          "rotworm"
+        ]
+      },
+      "Norma": {
+        "contexts": [
+          "gossip"
+        ],
+        "triggers": [
+          "spider"
+        ]
+      },
+      "Tom": {
+        "contexts": [
+          "dungeon",
+          "location"
+        ],
+        "triggers": [
+          "hint"
+        ]
+      }
+    },
+    "tags": [
+      "religion",
+      "magic",
+      "combat",
+      "premium",
+      "dungeon",
+      "equipment",
+      "suspicious",
+      "trade",
+      "complaint",
+      "authority",
+      "history",
+      "monsters",
+      "friendly",
+      "gossip",
+      "knowledge",
+      "location"
+    ],
+    "relationships": {
+      "Zerbrus": {
+        "attitude": "suspicious"
+      }
+    }
+  },
+  "Player: hi": {
+    "idle_messages": [],
+    "responses": {
+      "hi": {
+        "text": "The Oracle:",
+        "tags": []
+      },
+      "yes": {
+        "text": "The Oracle: SO BE IT!",
+        "tags": []
+      },
+      "no / (any)": {
+        "text": "The Oracle: COME BACK WHEN YOU ARE",
+        "tags": []
+      },
+      "bye / (vanish)": {
+        "text": "The Oracle: COME BACK WHEN YOU ARE",
+        "tags": []
+      }
+    },
+    "mentions": {},
+    "tags": [],
+    "relationships": {}
+  },
+  "Player: hi / hello": {
+    "idle_messages": [],
+    "responses": {
+      "hi / hello": {
+        "text": "Lily: Welcome,",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "academy": {
+        "text": "Lily: The academy is the big stone building in the town centre. If you're ready to leave Rookgaard, go there to see the oracle.",
+        "tags": [
+          "location"
+        ]
+      },
+      "al dee": {
+        "text": "Lily: Best tool shop in town, if you ask me.",
+        "tags": [
+          "equipment"
+        ]
+      },
+      "amber": {
+        "text": "Lily: I heard that she's recovering below the academy. She has been on an exciting expedition. I haven't talked to her yet, though.",
+        "tags": [
+          "gossip",
+          "location"
+        ]
+      },
+      "antidote": {
+        "text": "Lily: Antidote potions will cure poisoning. They also have a lovely blueberry taste. You only need them when you get poisoned deep down in a dungeon, else just go to the temple for a free heal!",
+        "tags": [
+          "dungeon",
+          "religion",
+          "location"
+        ]
+      },
+      "antidote potion": {
+        "text": "Lily: I can offer you homemade antidote potions and small health potions. Ask me for a trade if you like to see them.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "armor": {
+        "text": "Lily: Armors? Best buy them at Dixi's little counter, just upstairs from Obi's shop. Or, if you have a premium account, go to Lee'Delle for better offers.",
+        "tags": [
+          "trade",
+          "premium",
+          "location"
+        ]
+      },
+      "bank": {
+        "text": "Lily: It's wise to store most of your gold at the bank below the academy. It's safer that way.",
+        "tags": [
+          "trade",
+          "location"
+        ]
+      },
+      "billy": {
+        "text": "Lily: He's a farmer and sells food. Food will help you regain health when you are injured. Many monsters also carry food with them.",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "blueberry / berry / blueberries": {
+        "text": "Lily: Oh, do you have blueberries for sale? I need them for my antidote potion. I give you 1 gold for 5 of them, yes?",
+        "tags": [
+          "magic",
+          "trade"
+        ]
+      },
+      "cipfried": {
+        "text": "Lily: Visiting Cipfried in the temple is a good idea if you are injured or poisoned. He can heal you.",
+        "tags": [
+          "religion",
+          "friendly",
+          "location"
+        ]
+      },
+      "citizen": {
+        "text": "Lily: If you tell me the name of a citizen, I'll tell you what I know about him or her.",
+        "tags": []
+      },
+      "cookie": {
+        "text": "Lily: Yum, cookies! If you have some for me, just ask me for a trade.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "crunor": {
+        "text": "Lily: Crunor is the great lord of trees and the creator of all plants. Despite what some people believe, he didn't create the monsters, though.",
+        "tags": [
+          "gossip"
+        ]
+      },
+      "dallheim": {
+        "text": "Lily: He is a great warrior. He can also tell you much about monsters and dungeons on this island.",
+        "tags": []
+      },
+      "deposit / flask / vial": {
+        "text": "Lily: I will pay you 5 gold for every empty vial and potion flask. Just ask me for a trade.",
+        "tags": [
+          "magic",
+          "trade"
+        ]
+      },
+      "dixi": {
+        "text": "Lily: She's Obi's granddaughter and deals with armors and shields, just upstairs from Obi's shop.",
+        "tags": [
+          "location"
+        ]
+      },
+      "druid": {
+        "text": "Lily: Being a druid is a wonderful profession. You control the forces of nature and can heal others.",
+        "tags": []
+      },
+      "dungeon": {
+        "text": "Lily: If you need information about the dungeons here, you should talk to one of the bridge guards. They will show you where to go.",
+        "tags": [
+          "knowledge",
+          "location"
+        ]
+      },
+      "equipment": {
+        "text": "Lily: You definitely need a good weapon, an armor and a shield. Also, you should never leave for a dungeon without rope, shovel and torch.",
+        "tags": [
+          "dungeon",
+          "friendly",
+          "equipment"
+        ]
+      },
+      "fight": {
+        "text": "Lily: If you want to fight monsters, you should get better equipment from the merchants. You should also talk to one of the bridge guards to find suitable monsters for you.",
+        "tags": [
+          "combat",
+          "location",
+          "equipment"
+        ]
+      },
+      "food": {
+        "text": "Lily: Oh, I'm sorry honey, I don't sell food. If you are hungry, visit one of the farmers Billy and Willie. I buy blueberries and cookies, though.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "gold / money": {
+        "text": "Lily: Earn gold by fighting monsters and picking up what they carry. Sell it to merchants to make profit!",
+        "tags": [
+          "trade"
+        ]
+      },
+      "guard": {
+        "text": "Lily: Our bridge guards are Dallheim and Zerbrus. You can find Dallheim if you follow the path to the right, then turn north at the temple.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "health": {
+        "text": "Lily: Health potions will heal you for about 75 hit points. It can't hurt to carry one with you, just in case.",
+        "tags": []
+      },
+      "help / information": {
+        "text": "Lily: How can I help you? If you like to buy something, just ask me for a trade. We can also chat about Tibia. Or, I could give you general hints about the game.",
+        "tags": [
+          "trade",
+          "friendly"
+        ]
+      },
+      "how are you": {
+        "text": "Lily: I'm in tune with myself and with nature. Thank you.",
+        "tags": []
+      },
+      "hyacinth": {
+        "text": "Lily: Hyacinth also sells small health potions. He lives outside the village, in a hidden place.",
+        "tags": []
+      },
+      "job": {
+        "text": "Lily: I'm a druid, bound to the spirit of nature. My potions will help you if you feel bad. I also buy blueberries and cookies. Just ask me for a trade.",
+        "tags": [
+          "trade",
+          "friendly",
+          "complaint"
+        ]
+      },
+      "king": {
+        "text": "Lily: I think Tibia would be a better place without authorities who lead others to war. Can't we just all live in peace?",
+        "tags": [
+          "gossip"
+        ]
+      },
+      "lee'delle": {
+        "text": "Lily: If you are a premium adventurer, you should check out Lee'Delle's shop. She lives in the western part of town, just across the bridge.",
+        "tags": [
+          "premium",
+          "location"
+        ]
+      },
+      "lily": {
+        "text": "Lily: Yes?",
+        "tags": []
+      },
+      "loui": {
+        "text": "Lily: He used to help me gather blueberries. Then, one day, he suddenly stopped comming here. They say he went a little out of his mind.",
+        "tags": [
+          "gossip",
+          "friendly"
+        ]
+      },
+      "main": {
+        "text": "Lily: The main continent is huge! The gods of Tibia created everything from great seas, deep jungles and large deserts.",
+        "tags": []
+      },
+      "merchant": {
+        "text": "Lily: To view the offers of a merchant, simply talk to him or her and ask for a trade. They will gladly show you their offers and also the things they buy from you.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "monster": {
+        "text": "Lily: Sadly, our little village of Rookgaard is invaded by monsters. From the dungeons they creep to the surface and attack the city. We always need adventurers helping us to fight them.",
+        "tags": [
+          "combat"
+        ]
+      },
+      "name": {
+        "text": "Lily: My name is Lily, like the flower. It also stands for purity, just like my potions are!",
+        "tags": []
+      },
+      "norma": {
+        "text": "Lily: I don't know what to think about all this new bar. Rookgaard needs a little peace!",
+        "tags": [
+          "gossip"
+        ]
+      },
+      "obi": {
+        "text": "Lily: He sells weapons. His shop is east of here.",
+        "tags": [
+          "location"
+        ]
+      },
+      "offer / stuff / buy / wares": {
+        "text": "Lily: Just ask me for a trade to see my offers. If you want to sell blueberries, ask me about them separately.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "oracle": {
+        "text": "Lily: You can find the oracle on the top floor of the academy, just above Seymour. Go there when you are level 8 to reach more areas of Tibia.",
+        "tags": [
+          "location"
+        ]
+      },
+      "paulie": {
+        "text": "Lily: He takes care of the bank, keeping our money safe.",
+        "tags": [
+          "trade",
+          "combat"
+        ]
+      },
+      "poisoning": {
+        "text": "Lily: Some creatures like snakes or poison spiders can poison you. That will diminish your health over a certain amount of time, so be careful when dealing with those creatures!",
+        "tags": []
+      },
+      "potion": {
+        "text": "Lily: I can offer you homemade antidote potions and small health potions. Ask me for a trade if you like to see them.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "premium": {
+        "text": "Lily: If you purchase premium time for your account, this opens up a lot of possibilities. ...  \nLily: For example, you will be able to travel off the mainland, ride a mount and benefit from offline training as well as having more outfits and magic spells to choose from.",
+        "tags": [
+          "magic",
+          "premium"
+        ]
+      },
+      "rookgaard": {
+        "text": "Lily: Well, in this village and its surroundings you can train your skills until you are level 8. Then you should see the oracle and head to the main continent.",
+        "tags": []
+      },
+      "rope / shovel / torch": {
+        "text": "Lily: You best buy such equipment at Al Dee's store in the North of the village. Or, if you have a premium account, go to Lee'Delle for better offers.",
+        "tags": [
+          "trade",
+          "premium",
+          "location",
+          "equipment"
+        ]
+      },
+      "santiago": {
+        "text": "Lily: We tried everything to fight that cockroach plague in his cellar, but natural anti-bug potions simply won't help. I guess those roaches need to be fought with stronger weapons.",
+        "tags": [
+          "dungeon",
+          "combat",
+          "friendly"
+        ]
+      },
+      "sell": {
+        "text": "Lily: Just ask me for a trade to see what I buy from you. If you want to sell blueberries, ask me about them separately.",
+        "tags": [
+          "trade"
+        ]
+      },
+      "seymour": {
+        "text": "Lily: Seymour is a teacher running the academy. He has many important information about Tibia.",
+        "tags": [
+          "knowledge",
+          "location"
+        ]
+      },
+      "shield": {
+        "text": "Lily: Shields? Best buy them at Dixi's little counter, just upstairs from Obi's shop. Or, if you have a premium account, go to Lee'Delle for better offers.",
+        "tags": [
+          "trade",
+          "premium",
+          "location"
+        ]
+      },
+      "shop": {
+        "text": "Lily: There are many shops around here which are owned by local citizens.",
+        "tags": []
+      },
+      "temple": {
+        "text": "Lily: The temple is just to the right. You can get a healing for free there if you are badly injured or poisoned.",
+        "tags": [
+          "religion",
+          "location"
+        ]
+      },
+      "thank": {
+        "text": "Lily: Oh, it's a pleasure.",
+        "tags": []
+      },
+      "tibia": {
+        "text": "Lily: Tibia is our beautiful world, created by the gods. Being a druid, I'm a worshipper of Crunor.",
+        "tags": []
+      },
+      "time": {
+        "text": "Lily: It's about 5:05 pm. But does it really matter? Don't rush yourself and enjoy all these little moments.",
+        "tags": []
+      },
+      "tom": {
+        "text": "Lily: He's the local tanner. You could try selling fresh corpses or leather to him.",
+        "tags": []
+      },
+      "trade": {
+        "text": "Lily: Of course, just browse through my offers. If you buy a potion, don't forget that there's a deposit of 5 gold on the empty flask.",
+        "tags": [
+          "magic",
+          "trade"
+        ]
+      },
+      "train": {
+        "text": "Lily: To train your skills, simply help us fighting monsters.",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "weapon": {
+        "text": "Lily: If you are looking for weapons, you should visit Obi's shop east of here. Or, if you have a premium account, go to Lee'Delle for better offers.",
+        "tags": [
+          "premium",
+          "location"
+        ]
+      },
+      "willie": {
+        "text": "Lily: He's a farmer and sells food. Food will help you regain health when you are injured. Many monsters also carry food with them.",
+        "tags": [
+          "friendly"
+        ]
+      },
+      "zerbrus": {
+        "text": "Lily: He is a great warrior. He can also tell you much about monsters and dungeons on this island.",
+        "tags": []
+      },
+      "zirella": {
+        "text": "Lily: That poor old woman. I wish I could help her.",
+        "tags": [
+          "history",
+          "friendly"
+        ]
+      },
+      "hint": {
+        "text": "Lily: There is nothing more I can tell you. If you are still in need of some hints, I can repeat them for you.",
+        "tags": []
+      },
+      "bye / farewell": {
+        "text": "Lily: Take care,",
+        "tags": []
+      }
+    },
+    "mentions": {
+      "Lily": {
+        "contexts": [
+          "religion",
+          "magic",
+          "premium",
+          "combat",
+          "suspicious",
+          "equipment",
+          "trade",
+          "complaint",
+          "history",
+          "gossip",
+          "friendly",
+          "dungeon",
+          "knowledge",
+          "location"
+        ],
+        "triggers": [
+          "lily",
+          "al dee",
+          "academy",
+          "paulie",
+          "premium",
+          "santiago",
+          "blueberry / berry / blueberries",
+          "loui",
+          "tom",
+          "potion",
+          "shop",
+          "lee'delle",
+          "hyacinth",
+          "temple",
+          "guard",
+          "dixi",
+          "gold / money",
+          "help / information",
+          "name",
+          "zerbrus",
+          "obi",
+          "norma",
+          "offer / stuff / buy / wares",
+          "poisoning",
+          "cipfried",
+          "zirella",
+          "food",
+          "antidote",
+          "willie",
+          "antidote potion",
+          "oracle",
+          "rookgaard",
+          "druid",
+          "weapon",
+          "hi / hello",
+          "monster",
+          "trade",
+          "main",
+          "king",
+          "deposit / flask / vial",
+          "merchant",
+          "amber",
+          "how are you",
+          "rope / shovel / torch",
+          "tibia",
+          "bye / farewell",
+          "armor",
+          "fight",
+          "job",
+          "billy",
+          "crunor",
+          "health",
+          "hint",
+          "equipment",
+          "sell",
+          "shield",
+          "train",
+          "dallheim",
+          "time",
+          "citizen",
+          "dungeon",
+          "seymour",
+          "bank",
+          "cookie",
+          "thank"
+        ]
+      },
+      "Dixi": {
+        "contexts": [
+          "premium",
+          "trade",
+          "location"
+        ],
+        "triggers": [
+          "armor",
+          "shield"
+        ]
+      },
+      "Lee'Delle": {
+        "contexts": [
+          "premium",
+          "equipment",
+          "trade",
+          "location"
+        ],
+        "triggers": [
+          "weapon",
+          "shield",
+          "rope / shovel / torch",
+          "armor",
+          "lee'delle"
+        ]
+      },
+      "Obi": {
+        "contexts": [
+          "premium",
+          "trade",
+          "location"
+        ],
+        "triggers": [
+          "armor",
+          "weapon",
+          "dixi",
+          "shield"
+        ]
+      },
+      "Cipfried": {
+        "contexts": [
+          "religion",
+          "friendly",
+          "location"
+        ],
+        "triggers": [
+          "cipfried"
+        ]
+      },
+      "Willie": {
+        "contexts": [
+          "trade"
+        ],
+        "triggers": [
+          "food"
+        ]
+      },
+      "Dallheim": {
+        "contexts": [
+          "religion",
+          "location"
+        ],
+        "triggers": [
+          "guard"
+        ]
+      },
+      "Zerbrus": {
+        "contexts": [
+          "religion",
+          "location"
+        ],
+        "triggers": [
+          "guard"
+        ]
+      },
+      "Hyacinth": {
+        "contexts": [],
+        "triggers": [
+          "hyacinth"
+        ]
+      },
+      "Seymour": {
+        "contexts": [
+          "knowledge",
+          "location"
+        ],
+        "triggers": [
+          "seymour",
+          "oracle"
+        ]
+      },
+      "Al Dee": {
+        "contexts": [
+          "trade",
+          "premium",
+          "location",
+          "equipment"
+        ],
+        "triggers": [
+          "rope / shovel / torch"
+        ]
+      },
+      "Tom": {
+        "contexts": [
+          "dungeon",
+          "location"
+        ],
+        "triggers": [
+          "hint"
+        ]
+      }
+    },
+    "tags": [
+      "religion",
+      "magic",
+      "premium",
+      "combat",
+      "suspicious",
+      "equipment",
+      "trade",
+      "complaint",
+      "history",
+      "gossip",
+      "friendly",
+      "dungeon",
+      "knowledge",
+      "location"
+    ],
+    "relationships": {
+      "Lily": {
+        "attitude": "suspicious"
+      },
+      "Cipfried": {
+        "attitude": "positive"
+      }
+    }
+  }
+}
