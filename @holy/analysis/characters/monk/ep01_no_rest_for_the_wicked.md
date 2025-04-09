@@ -215,7 +215,9 @@ As the battle progresses, his arrogance gives way to disbelief. '*You can't stop
 ### Reward and Revelation (75 seconds)
 *[Return to Lai and receiving the Fiend Slayer Outfit]*
 
-"Returning to Lai with news of our victory and the witnessed betrayal, she appears deeply troubled by the Ominous Stranger's successful escape. The items he stole - likely including specialized knowledge about processing inferniarch remains and possibly unique artifacts from Arbaziloth's collection - would allow him to create even more powerful weapons through the Forgemaster's dark crafting.
+"Returning to Lai with news of our victory and the witnessed betrayal, she appears deeply troubled by the Ominous Stranger's successful escape. The items he stole - likely including specialized knowledge about processing inferniarch remains and possibly unique artifacts from Arbaziloth's collection - would allow him to create even more powerful weapons through the Forgemaster's dark crafting."
+
+*You killed the prince. I have little to reward you, but take this set of armor that I found in the ruins as a token of my gratitude! May this outfit serve you well.*
 
 The renegade's methodical approach - forming alliances, collecting demonic materials, and working with the Forgemaster - speaks to a calculated plan that goes beyond mere power-gathering. His actions in Azzilon Castle follow the same pattern seen in his encounter with Ildrin: using others until they serve no further purpose, then disposing of them without hesitation.
 
